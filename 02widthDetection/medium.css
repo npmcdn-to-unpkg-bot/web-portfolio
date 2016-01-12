@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+span {
+	background-color:white;
+	color:white;
+}
+/*tablet*/
+@media only screen and (min-device-width: 501px) and (max-device-width: 900px) {
+   .medium { 
+     background-color: #5965FF; 
+     color:black;
+   }
+   p {
+	 background-color: #5965FF; 
+     color:black;
+   }
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+span {
+	background-color:white;
+	color:white;
+}
+/*desktop and large screens*/
+@media only screen and (min-device-width: 901px) {
+  .large { 
+    background-color: #2D327F; 
+    color:white;
+  }
+  p {
+	background-color: #2D327F; 
+    color:white;
+  }
+  
+}

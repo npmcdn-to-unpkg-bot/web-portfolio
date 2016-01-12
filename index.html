@@ -3,10 +3,39 @@
 <head>
 <meta charset="utf-8">
 <title>Alex Powelson DGM 2740</title>
+<style type="text/css">
+/*desktop and large screens*/
+@media only screen and (min-device-width: 901px) {
+  span { 
+    background-color: #2D327F; 
+    width:100%;
+    color:white;
+  }
+}
+/*tablet*/
+@media only screen and (min-device-width: 501px) and (max-device-width: 900px) {
+   span { 
+     background-color: #5965FF; 
+     width:100%;
+     color:black;
+   }
+}
+/*phone*/
+@media only screen and  (max-device-width: 500px) {
+   span { 
+     background-color: #A6ACFF; 
+     width:100%;
+     color:black;
+   }
+}
+
+</style>
 </head>
 
 <body>
 <h1>Alex Powelson</h1>
-<h2>Assignment 1: set up site </h2>
+<h2>Assignment 2: media queries </h2>
+<p>The width of your browser is:</p>
+<span class="browidth">width</span>
 </body>
 </html>

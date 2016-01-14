@@ -6,7 +6,7 @@ span {
 	color:white;
 }
 /*desktop and large screens*/
-@media only screen and (min-device-width: 901px) {
+@media only screen and (min-width: 901px) {
   .large { 
     background-color: #2D327F; 
     color:white;

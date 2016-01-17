@@ -3,6 +3,7 @@
 	body {}
 
 /*-----WRAPPER -----*/
+/* use a gradient for desktop ending in a solid color */
 	#wrapper {}
 
 /*-----CONTAINER -----*/
@@ -12,17 +13,32 @@
 	}
 
 /*-----HEADER -----*/
-
-
+/* solid decorative bar at bottom of header */
+header {
+	display:inline;
+}
+.logo {
+	
+}
 
 /*-----NAVigation -----*/
-
+nav {
+	
+}
 
 
 /*-----CONTENT -----*/
-
-
-
+.news, .tweets {
+width:45%;	
+height:100px;
+background-color:#D0DACD;
+}
+.news {
+	margin-right:5%;
+}
+.tweets {
+	
+}
 /*----- FOOTER -----*/
 
 

@@ -5,6 +5,8 @@
 <title>Responsive Design - Alex Powelson</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700,300" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
 <link href="reset.css" rel="stylesheet" type="text/css">
 <link href="desktop.css" rel="stylesheet" type="text/css">
 <link href="tablet.css" rel="stylesheet" type="text/css">
@@ -12,10 +14,10 @@
 </head>
 
 <body>
-
+<div id="wrapper">
 <header>
 <!-- company logo designed by me (transparent 24bit PNG), company name as text next to logo, solid decorative bar at bottom of header  -->
-<figure class="logo"></figure>
+<figure class="logo"><img src="logo.png" alt="lesser than sign as the logo"></figure>
 <h1>lesser</h1>
 </header>
 <nav><!-- pure CSS round buttons for mobile, horizontal not rounded for tablet and desktop, activate using active class on the li -->
@@ -25,7 +27,7 @@
 <li><a href="/contact">Contact</a></li>
 </ul>
 </nav>
-<div id="wrapper">
+
 <div id="content">
 <!-- graphic that is 100% on all devices, another graphic that is scalable that is 100% on phone 50% on tablet and 33% on desktop, text wrap around when less than full width -->
 <figure class="fullwidth"></figure>
@@ -36,12 +38,14 @@
 <!-- fixed height text with sliders, side by side desktop, stacked on tablet and mobile-->
 <div class="news">
   <h2>News</h2>
+  
 </div>
 <div class="tweets">
   <h2>Tweets</h2>
+  
 </div>
 </div>
-<footer></footer>
+<footer>&copy; Alex Powelson 2016</footer>
 </div> <!-- end of wrapper -->
 </body>
 </html>

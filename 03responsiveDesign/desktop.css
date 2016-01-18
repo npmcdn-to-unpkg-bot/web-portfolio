@@ -1,10 +1,14 @@
 @media only screen and (min-width: 1141px) {
 /*-----BODY -----*/
-	body {}
+	body {
+		font-family:Source Sans Pro, sans-serif;
+		}
 
 /*-----WRAPPER -----*/
 /* use a gradient for desktop ending in a solid color */
-	#wrapper {}
+	#wrapper {
+		
+		}
 
 /*-----CONTAINER -----*/
 	#container {
@@ -16,21 +20,32 @@
 /* solid decorative bar at bottom of header */
 header {
 	display:inline;
+	bottom-border:solid 1px #00420D;
 }
 .logo {
-	
+	display:inline;
+}
+header h1 {
+	display:inline;
+	font-family:Source Code Pro, sans-serif;
+	font-size:100px;
 }
 
 /*-----NAVigation -----*/
 nav {
-	
+	display:inline;
 }
-
+nav ul li {display:inline;	}
+.active {
+	color:#1A5525;
+	background-color:#D0DACD;
+}
 
 /*-----CONTENT -----*/
 .news, .tweets {
+display:inline;
 width:45%;	
-height:100px;
+height:500px;
 background-color:#D0DACD;
 }
 .news {
@@ -38,6 +53,13 @@ background-color:#D0DACD;
 }
 .tweets {
 	
+}
+
+.fullwidth {
+	width:100%;
+}
+.scalable {
+	width:33%;
 }
 /*----- FOOTER -----*/
 

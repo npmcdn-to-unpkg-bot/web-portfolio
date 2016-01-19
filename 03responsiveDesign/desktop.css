@@ -1,7 +1,9 @@
-@media only screen and (min-width: 1141px) {
+@media only screen and (min-width: 961px) {
 /*-----BODY -----*/
 	body {
 		font-family:Source Sans Pro, sans-serif;
+		background-image:url(gradient.jpg);
+		background-repeat:repeat-x;
 		}
 
 /*-----WRAPPER -----*/
@@ -14,52 +16,43 @@
 	#container {
 		margin: 2em auto;
 		border: 1px solid #00420D;
-	}
+		
+		}
 
 /*-----HEADER -----*/
 /* solid decorative bar at bottom of header */
 header {
-	display:inline;
-	bottom-border:solid 1px #00420D;
+
 }
-.logo {
-	display:inline;
-}
+
 header h1 {
-	display:inline;
 	font-family:Source Code Pro, sans-serif;
-	font-size:100px;
+	font-size:5em;
 }
 
 /*-----NAVigation -----*/
 nav {
-	display:inline;
+
 }
-nav ul li {display:inline;	}
+nav ul li {
+	float:left;
+		}
 .active {
 	color:#1A5525;
 	background-color:#D0DACD;
 }
 
 /*-----CONTENT -----*/
-.news, .tweets {
-display:inline;
-width:45%;	
-height:500px;
-background-color:#D0DACD;
-}
-.news {
-	margin-right:5%;
-}
-.tweets {
-	
+
+div.row article {
+	width:46%;
+	float:left;
+
 }
 
-.fullwidth {
-	width:100%;
-}
-.scalable {
-	width:33%;
+
+figure.scalable {
+	width:29%;
 }
 /*----- FOOTER -----*/
 

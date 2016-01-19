@@ -14,20 +14,27 @@
 /*-----HEADER -----*/
 /* solid decorative bar at bottom of header */
 header {
-	display:inline;
-	bottom-border:solid 1px #00420D;
+
 }
-header h1 {display:inline;
-font-family:Source Code Pro, sans-serif;
-font-size:8em;
-}
-.logo {
-	display:inline;
+header h1 {
+font-size:4em;
+	padding-top:.2em;
 }
 
+
 /*-----NAVigation -----*/
-	nav ul li {display:inline;	}
-	nav ul li a {}
+nav {
+	background-color:#D0DACD;
+}
+	nav ul li {
+		}
+	nav ul li a {
+	display:inline;
+	float:left;
+	border:none;
+	border-radius:0px;
+	margin:0;
+	}
 .active {
 	color:#1A5525;
 	background-color:#D0DACD;
@@ -35,23 +42,11 @@ font-size:8em;
 
 
 /*-----CONTENT -----*/
-.news, .tweets {
-display:inline;
-width:45%;	
-height:500px;
-background-color:#D0DACD;
-}
-.news {
-	margin-right:5%;
-}
-.tweets {
-	
-}
-.fullwidth {
-	width:100%;
-}
-.scalable {
-	width:50%;
+
+
+figure.scalable {
+	width:46%;
+	float:right;
 }
 
 /*----- FOOTER -----*/

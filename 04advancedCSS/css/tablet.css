@@ -1,0 +1,39 @@
+@media only screen and (min-width: 600px) {
+/*-----BODY -----*/
+	body {}
+
+
+
+/*-----CONTAINER -----*/
+	#container {}
+
+
+
+/*-----HEADER -----*/
+
+
+
+
+/*-----NAVigation -----*/
+	nav ul li {	}
+	nav ul li a {
+	display:inline;
+	float:left;
+	border:none;
+	border-radius:0px;
+	margin:0;
+	}
+.active {
+	color:#1A5525;
+	background-color:#D0DACD;
+}
+
+
+/*-----CONTENT -----*/
+
+
+
+/*----- FOOTER -----*/
+
+	
+}

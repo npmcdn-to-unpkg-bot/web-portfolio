@@ -1,0 +1,151 @@
+/*-----Prevents iPhone from resizing in landscape mode -----*/
+html {-webkit-text-size-adjust: none; }
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*-----BODY -----*/
+body {
+	font-size: 16px;	
+	font-family: 'Roboto', sans-serif;
+	background-color:#FFF;
+	background-image:url(../grid4.png);
+}
+
+
+/*-----CONTAINER -----*/
+#container {
+	background-color: #fff;   /*becomes the nav background color*/
+	min-width: 320px;
+	max-width: 1140px;
+}
+
+/*-----HEADER -----*/
+header {
+	width:100%;
+	border-bottom:5px solid black;
+}
+header img {
+	width:100%;
+}
+
+.decor {
+	display:none;
+}
+
+/*-----NAVigation -----*/
+
+button {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+border:none;
+color:black;
+font-size:1em;
+display:block;
+width:96%;
+margin-left:2%;
+padding:.5em 0;
+}
+ul#myNav {
+	display:none;
+	font-family: 'Roboto Slab', serif;
+}
+nav ul{
+border:5px solid black;
+width:96%;
+margin-left:2%;}
+nav ul li {}
+nav ul li a {
+display:block;
+text-align:center;
+padding:.5em;
+border-top: 5px solid black;
+text-decoration:none;
+color:black;
+background-color:white;
+}
+nav ul li:first-child a {
+	border-top:none;
+}
+
+nav ul li.selected a {
+	color:#0000ff;
+}
+
+
+/*-----CONTENT -----*/
+
+.contentwrap {
+	min-height: 5em;
+	border: 5px solid black;
+
+}
+.contentwrap article {
+padding: .5em 2%;	
+}
+h1 {
+	padding:.5em;
+	font-family: 'Roboto Slab', serif;
+	font-size:2em;
+	background-color:#ff0000;
+	
+}
+h2 {
+	padding-top:1em;
+	font-family: 'Roboto Slab', serif;
+	font-size:1.5em;
+	padding-bottom:.5em;
+}
+
+h3{
+	font-weight:600;
+}
+.contentwrap a {
+	
+}
+article ul li {
+	margin:1em;
+	color:#0000ff;
+	border-left:5px solid #ffff00;
+	padding:.25em;
+}
+p {
+	padding-top:.5em;
+}
+
+figure.w50 img {width:100%;}
+figure.w50 {
+	float:right;
+	background-color:#ff0000;
+	width:100%;	
+	border:5px solid black;
+}
+figcaption {
+	text-align:center;
+	font-size:.75em;
+	font-weight:600;
+	padding:.25em; 	
+	
+}
+
+
+/*----- FOOTER -----*/
+footer {
+	font-family: 'Roboto Slab', serif;
+	clear: both;
+	text-align: center;
+	padding: 1em;
+	color:white;
+	background-color:black;
+}
+
+/* clear fix*/
+.clearfix:after {
+content:""; 	
+display:table;
+clear:both;
+}

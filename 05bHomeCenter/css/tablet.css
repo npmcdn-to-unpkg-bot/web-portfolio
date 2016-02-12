@@ -1,0 +1,71 @@
+@media only screen and (min-width: 600px) {
+
+
+/*-----HEADER -----*/
+header img {
+	width:25%;
+}
+header h1 {
+font-size:3em;		
+}
+
+
+/*-----NAVigation -----*/
+nav select{display: none;}
+nav{
+	width: 25%; 
+	float: left;
+	padding: 0;
+	margin: 0;
+	background:#00420D;
+}
+
+nav ul{display: block;}
+
+nav ul li a {
+	display:block;
+	padding:.6em;
+	text-decoration: none;
+	border-top: 1px solid  rgba(255,255,255,0.2);
+	border-bottom: 1px solid rgba(0,0,0,0.8);
+	color:white;
+	}
+
+nav ul li a:hover {background: #1A5525;}
+nav ul li.selected a {color:white;}
+/*secondary menus*/
+nav ul li ul {
+	padding: 0;
+	margin: 0;
+}
+nav ul li ul li a  {
+	color: #D0DACD;
+	padding:.6em;
+	padding-left: 20px;
+	font-size:.7em;
+	background: #00420D;
+}
+nav ul li.selected ul li a{
+	color: rgba(255,255,255,0.7);
+	} 
+nav ul li ul li.selected a {color: yellow; }
+/*-----CONTENT -----*/
+
+#content {
+	float: left;
+	width: 75%;
+	min-height: 20em;
+}
+figure.w50 {
+	width: 41.666%;
+}
+
+.links a {
+	width: 12.666%;
+}
+
+/*----- FOOTER -----*/
+footer .left {background-color: #4E7B55;}
+footer .middle {margin-left: 25%;}
+	
+}

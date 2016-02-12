@@ -1,0 +1,71 @@
+@media only screen and (min-width: 600px) {
+
+header h1 {
+		font-size:3em;
+}
+
+/*-----NAVigation -----*/
+#navwrap {
+	background: #ACC0FF;
+	width:100%;
+}
+
+nav ul {
+	margin-left: 2%;
+}
+/*main menu items float side by side*/
+nav ul li {
+	float: left;
+}
+nav ul li a { 
+	display:block;
+	color: rgba(255,255,255,0.9);
+	font-size: 1em;
+	padding: 1.2em .9em;
+	font-weight: 400;
+	text-decoration:none;
+	background-color:rgba(255,255,255,0.2);
+	margin-left:.25em;
+}
+nav ul li a:hover {
+	color: rgba(0,0,0,0.6);	
+	background-color:rgba(255,255,255,0.5);
+}
+nav ul li ul { 
+	z-index:99;
+	position: absolute;
+	background-color: #ACC0FF;
+	left: -999em; 
+	width: 7em;
+}
+nav ul li ul li { 
+	float: none;
+	border-right: none;
+	border-bottom: solid 1px #ACC0FF;
+}
+
+nav li:hover ul { 
+	left: auto;
+	margin-left: 0;
+}
+nav li.current {
+	background-color: #ACC0FF;	
+}
+
+.search {
+	position:static;
+	float: right;
+	margin: .5em;
+}
+
+/*-----CONTENT -----*/
+.column {
+	clear: both;
+}
+article {
+	width: 46%;
+	float:left;
+}
+
+
+}

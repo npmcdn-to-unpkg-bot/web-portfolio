@@ -1,0 +1,99 @@
+@media only screen and (min-width: 1141px) {
+/*-----BODY -----*/
+	body {}
+
+/*-----WRAPPER -----*/
+	#wrapper {}
+
+/*-----CONTAINER -----*/
+	#container {
+		margin: 2em auto;
+		border:5px solid black;
+	}
+
+/*-----HEADER -----*/
+header img {
+	width:auto;
+}
+
+
+/*-----NAVigation -----*/
+.navwrap {
+background-color:#0000ff;	
+border-bottom:5px solid black;
+}
+.navwrap .left {
+width:91.666%;
+background-color:#ff0000;
+}
+.navwrap .middle {
+margin-left: 18.1818%;
+
+}
+
+nav {
+	width:100%;
+	background:white;
+	float:none;
+	border-left:5px solid black;
+	border-right:5px solid black;
+	
+}
+nav ul li{
+float:left;
+border-left:solid 1px rgba(0,0,0,0.7);
+border-right:solid 1px rgba(255,255,255,0.1);
+margin:auto;
+}
+nav ul li a {
+
+border:none;	
+}
+
+
+/*-----CONTENT -----*/
+.decor {
+	display:none;
+}
+.contentwrap {
+	margin-left:0;
+	border:none;
+	border-bottom:5px solid black;
+}
+.contentwrap .left {
+width:91.666%;
+background-color:white;
+border-right:5px solid black;
+}
+.contentwrap .middle {
+margin-left: 18.1818%;
+background-color:white;
+border-left:5px solid black;
+}
+
+.row article.col33 {
+	width:33%;
+	float:left;
+
+}
+
+figure.w50 {
+	width:50%;	
+
+}
+
+/*----- FOOTER -----*/
+.footwrap {
+	margin-left:0;
+	background-color:black;
+}
+.footwrap .left {
+width:91.666%;
+background-color:#ffff00;
+}
+.footwrap .middle {
+margin-left: 18.1818%;
+background-color:white;
+}
+
+} 

@@ -1,0 +1,84 @@
+@media only screen and (min-width: 800px) {
+
+
+/*-----HEADER -----*/
+header {
+		max-width: 1140px;
+		margin: 0 auto;
+	}
+
+
+/*-----NAVigation -----*/
+#navwrap {
+	width:100%;
+	display:block;
+	vertical-align:baseline;
+	float:left;
+}
+nav {
+		max-width: 1140px;
+		margin: 0 auto;
+	}
+	nav ul li a { 
+	padding: .7em;
+	}
+
+
+/*-----CONTENT -----*/
+#contentwrap {
+		background-image:url(../images/background.png);
+		background-position:center top;	
+		background-repeat:no-repeat;
+	}
+	#content {
+		margin: 0 auto;
+		max-width: 1140px;
+		border:none;
+		min-height:700px;
+	}
+	
+	article figure {
+		background-color:transparent;	
+	}
+	
+	article figure img {width: 66%; margin:0;}
+	
+	article figure figcaption {
+		float: none;
+		display:block;
+		width: 66%; 
+		padding: .5em; 
+		margin:0;
+		background-color:white;	
+		text-align:center;
+	}
+	
+	article p
+	{
+	background-color:white;		
+	}
+	article p ul li
+{
+	background-color:white;	
+	font-size:.6em;	
+	}
+
+	.row {
+		clear: both;
+	}
+	.column {
+		width: 50%;
+		float:left;
+		clear: none;
+	}
+	article {
+		margin-left: 4%; /*needs to increase because the article is living inside a 50% of the total */
+		margin-right: 4%;
+		width: 42%;
+	}
+
+
+/*----- FOOTER -----*/
+
+
+} 

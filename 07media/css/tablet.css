@@ -4,6 +4,7 @@ header h1 {
 		font-size:3em;
 }
 
+
 /*-----NAVigation -----*/
 #navwrap {
 	background: #ACC0FF;
@@ -63,9 +64,37 @@ nav li.current {
 	clear: both;
 }
 article {
-	width: 46%;
-	float:left;
+	width:75%;
+	margin:auto;
+
 }
 
+/* social media icons */
+	header ul.social {
+		float:right;
+		display:block;	
+		background-color:#ACC0FF;
+	}
+	header ul.social li {
+		float: left;
+			
+	}
+	ul.social li a {
+		display:block;
+		background-image:url(../images/sprites.png); 
+		width:60px;
+		height: 50px;
+	}
+	
+
+	ul.social .twitter a {background-position:0px 50px}
+	ul.social .tumblr a {background-position:-60px 50px}
+	ul.social .facebook a  {background-position:-120px 0px}
+	ul.social .instagram a {background-position:-180px 0px}
+
+	ul.social .twitter a:hover {background-position:0px 0px}
+	ul.social .tumblr a:hover {background-position:-60px 0px}
+	ul.social .facebook a:hover  {background-position:-120px 50px}
+	ul.social .instagram a:hover {background-position:-180px 50px}
 
 }

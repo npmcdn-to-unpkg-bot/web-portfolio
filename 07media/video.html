@@ -1,0 +1,116 @@
+ <!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Alex Powelson forms</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<!-- LOAD THE LATEST VERSION OF JQUERY-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<!-- fitvids -->
+<script src="fitvids/jquery.fitvids.js"></script>
+
+
+
+<!-- mobile nav expand -->
+<script>
+	$(document).ready(function(){
+		$(".nav-button").click(function () {
+		$(".nav-button,.primary-nav").toggleClass("open");
+		});    
+	});
+</script>
+
+
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700,300" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+
+<!----- STYLE SHEETS ----->
+<link href="css/reset.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/phone-default.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/tablet.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/desktop.css" rel="stylesheet">
+<!-- mobile menus -->
+<link href="css/mobilemenu.css" rel="stylesheet">
+
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+     
+</head>
+<body>
+
+	<header id="headerwrap" class="clearfix">
+    <img src="images/logo.png" alt="lesser logo">
+    <h1>Lesser Magazine</h1>
+    <h2>Local underground music news and photos</h2>
+	<ul class="social">
+    	<li class="twitter"><a href="#"></a></li>
+        <li class="facebook"><a href="#"></a></li>
+        <li class="instagram"><a href="#"></a></li>
+        <li class="tumblr"><a href="#"></a></li>
+     </ul><!-- end social -->
+    </header>
+    
+    
+<div id="navwrap">
+<nav class="clearfix">
+<ul class="primary-nav clearfix">
+<li><a href="index.html" >Photo Slider</a>
+    </li>
+    
+<li><a href="thumb.html" >Thumbnail Slider</a>
+    </li>
+    
+
+<li><a href="video.html" >Videos</a>
+   </li>
+</ul>
+
+<!-- phone menu  -->
+<button class="nav-button">Toggle Navigation</button>
+
+ </nav>
+</div>
+
+    
+    
+    <div id="contentwrap"> 
+	<div id="content" class="clearfix">
+<h2>YouTube</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8wTn2-yvjnw" frameborder="0" allowfullscreen></iframe>
+<h2>Vimeo</h2>
+<iframe src="https://player.vimeo.com/video/22067279" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<h2>Kickstarter</h2>
+<iframe width="480" height="360" src="https://www.kickstarter.com/projects/903888394/arduboy-card-sized-gaming/widget/video.html" frameborder="0" scrolling="no"> </iframe>
+
+    </div><!-- end content -->
+    </div>
+    
+    <footer>
+    <p>&copy; Alex Powelson 2016</p>
+    </footer>
+
+<!-- fitvids -->
+<script src="fitvids/jquery.fitvids.js"></script>
+<script>
+        // Basic FitVids Test
+        $("#content").fitVids();
+        // Custom selector and No-Double-Wrapping Prevention Test
+        $("#content").fitVids({ customSelector: "iframe[src^='http://kickstarter.com']"});
+      </script>
+      
+</body>
+</html>

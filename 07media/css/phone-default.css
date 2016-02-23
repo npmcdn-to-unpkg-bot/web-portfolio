@@ -18,6 +18,9 @@ body {
 }
 
 /*-----HEADER -----*/
+ul.social {
+	display:none;	
+}
 #headerwrap {
 	/* background-image: url();  */
 	min-width: 320px;
@@ -79,75 +82,14 @@ header h2 {
 	padding-top: .6em;	
 }
 
-
-
-
-/* form */ 
-progress {
-	margin:.5em 1em;	
+article {
+width:100%;	
 }
 
-form {
-	margin: 1em 2%;
-}
-fieldset {
-	border:#006B7F solid 16px;
-	margin:1em 0;
-	border-radius:1px;
-}
-legend {
-	
-	
-}
-label {
-	display:block;
-	margin:.5em;
-}
-label span {
-	display:block;
-}
-input.submission {
-	-webkit-appearance:none;
-	border: 1px solid #2292AB;
-	width:90%;
-	max-width:500px;
-	margin:auto;
-	padding:.5em;
-	font-size:1.5em;
-	color: #2292AB;
-	font-weight: 700;
-	font-family:Source Sans Pro, sans-serif;
-}
+	article .desktoponly {
+		display:none;
+	}
 
-/* NEED FOUR SPRITES: not required, required, in progress/invalid, and done/valid. photoshop transparent background */
-
-label input {
-	border: 1px solid #2292AB;
-	background-color:#fff;
-	color:#2292AB;
-	width:90%;
-	max-width:500px;
-	padding:.3em .3em .3em 2em;
-	background-image:url(../images/sprites.png);
-	background-repeat:no-repeat;
-	background-position:4px -11px;
-}
-
-input:focus {
-	box-shadow: 1px 1px 4px #A5FFD9 inset;
-}
-
-input:required {
-	background-position:4px -61px;
-}
-
-input:focus:invalid {
-	background-position:4px -111px;
-}
-
-input:required:valid {
-	background-position:4px -161px;
-}
 
 /*----- FOOTER -----*/
 footer {

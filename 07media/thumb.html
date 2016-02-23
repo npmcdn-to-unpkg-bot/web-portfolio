@@ -19,13 +19,11 @@
 
 <script type="text/javascript" charset="utf-8">
   $(window).load(function() {
-    $('.flexslider').flexslider({
-		animation:"slide",
-		
-	
-	}
-	);
+  $('.flexslider').flexslider({
+    animation: "slide",
+    controlNav: "thumbnails"
   });
+});
 </script>
 
 <!-- mobile nav expand -->
@@ -78,7 +76,6 @@
 <div id="navwrap">
 <nav class="clearfix">
 <ul class="primary-nav clearfix">
-    
 <li><a href="index.html" >Photo Slider</a>
     </li>
     
@@ -90,7 +87,6 @@
    </li>
 </ul>
 
-
 <!-- phone menu  -->
 <button class="nav-button">Toggle Navigation</button>
 
@@ -101,43 +97,47 @@
     
     <div id="contentwrap"> 
 	<div id="content" class="clearfix">
-    <article>
+    
+    <article class="clearfix">
+    <div class="slider">
     <div class="flexslider">
-    <ul class="slides">
-    <li><img src="images/medusafest-1.jpg" alt=""/>
-    <span class="flex-caption">one photo</span>
-    </li>
-    <li><img src="images/medusafest-2.jpg" alt=""/>
-    <span class="flex-caption">one photo</span>
-    </li>
-    <li><img src="images/medusafest-3.jpg" alt=""/>
-    <span class="flex-caption">one photo</span>
-    </li>
-    <li><img src="images/medusafest-5.jpg" alt=""/>
-    <span class="flex-caption">one photo</span>
-    </li>
-    <li><img src="images/medusafest-8.jpg" alt=""/>
-    <span class="flex-caption">one photo</span>
-    </li>
-	<li><img src="images/medusafest-9.jpg" alt=""/>
-    <span class="flex-caption">one photo</span>
-    </li>
-    <li><img src="images/medusafest-10.jpg" alt=""/>
-    <span class="flex-caption">one photo</span>
-    </li>
-    <li><img src="images/medusafest-12.jpg" alt=""/>
-    <span class="flex-caption">one photo</span>
-    </li>
-    </ul>       
+        <ul class="slides">
+        <li data-thumb="images/thumb1.jpg">
+            <img src="images/medusafest-1.jpg" alt=""/>
+        </li>
+        <li data-thumb="images/thumb2.jpg">
+            <img src="images/medusafest-2.jpg" alt=""/>
+        </li>
+        <li data-thumb="images/thumb3.jpg">
+            <img src="images/medusafest-3.jpg" alt=""/>
+        </li>
+        <li data-thumb="images/thumb5.jpg">
+            <img src="images/medusafest-5.jpg" alt=""/>
+        </li>
+        <li data-thumb="images/thumb8.jpg">
+        <img src="images/medusafest-8.jpg" alt=""/>
+        </li>
+        <li data-thumb="images/thumb9.jpg">
+        <img src="images/medusafest-9.jpg" alt=""/>
+        </li>
+        <li data-thumb="images/thumb10.jpg">
+        <img src="images/medusafest-10.jpg" alt=""/>
+        </li>
+        <li data-thumb="images/thumb12.jpg">
+        <img src="images/medusafest-12.jpg" alt=""/>
+        </li>
+        </ul>       
     </div><!--end flex-->
+    </div><!--end slider-->
      </article>
      
-          <article class="desktoponly">
+     <article class="desktoponly">
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus condimentum lectus a facilisis. Nulla elementum et mauris vitae blandit. Maecenas eu dapibus metus. Suspendisse aliquet orci sed nibh sollicitudin, iaculis sodales nibh porttitor. Aenean pellentesque vitae libero sed laoreet. Fusce gravida congue ultricies. Praesent lacinia orci est, at placerat libero elementum in. Donec sed egestas justo.
 
 Nunc ultricies sodales tellus, eu congue sapien imperdiet eget. Aliquam erat volutpat. Phasellus consequat lobortis odio, vitae mollis tortor maximus nec. Sed vitae lectus at metus accumsan tincidunt. Nunc tempor tortor eget pulvinar mollis. Proin non velit sit amet lacus dignissim vulputate. Nunc in ipsum vitae urna feugiat fringilla vel sit amet neque. Duis vitae purus commodo sapien feugiat dapibus a sed metus. Suspendisse dictum lacus vitae blandit cursus. Vestibulum ultrices accumsan tempus. In sit amet velit lorem. Cras laoreet tristique augue et blandit. Ut sed erat sit amet ligula blandit elementum. Phasellus pellentesque suscipit odio, eu sodales nulla pharetra quis. Vestibulum tincidunt laoreet aliquet.
      </p>
      </article>
+     
     </div><!-- end content -->
     </div>
     

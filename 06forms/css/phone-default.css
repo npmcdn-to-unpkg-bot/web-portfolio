@@ -9,7 +9,13 @@ body {
 	font-size: 16px;	
 	font-family:Source Sans Pro, sans-serif;
 }
-
+span a{
+	font-size:.75em;
+	font-style:italic;	
+	color:#A6ACFF;	
+	background-color:white;
+	text-decoration:none;
+	}
 
 /*-----CONTAINER -----*/
 #container {

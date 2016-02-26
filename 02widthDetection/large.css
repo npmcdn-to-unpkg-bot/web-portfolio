@@ -1,6 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
-
+span a{
+	font-size:.75em;
+	font-style:italic;	
+	color:#A6ACFF;	
+	background-color:white;
+	text-decoration:none;
+	}
 span {
 	background-color:white;
 	color:white;

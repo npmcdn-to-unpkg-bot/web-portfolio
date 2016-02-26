@@ -11,7 +11,13 @@ body {
 	background-color:#FFF;
 	background-image:url(../grid4.png);
 }
-
+span a{
+	font-size:.75em;
+	font-style:italic;	
+	color:#A6ACFF;	
+	background-color:white;
+	text-decoration:none;
+	}
 
 /*-----CONTAINER -----*/
 #container {

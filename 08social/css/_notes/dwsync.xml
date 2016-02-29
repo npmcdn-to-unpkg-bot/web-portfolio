@@ -3,4 +3,7 @@
 <file name="phone-default.css" server="ssh.phx.nearlyfreespeech.net" local="131012610962749045" remote="131012611080000000" Dst="1" />
 <file name="tablet.css" server="ssh.phx.nearlyfreespeech.net" local="131012584260264062" remote="131012584380000000" Dst="1" />
 <file name="desktop.css" server="ssh.phx.nearlyfreespeech.net" local="131012582487944050" remote="131012582610000000" Dst="1" />
+<file name=".DS_Store" server="ssh.phx.nearlyfreespeech.net" local="131011637840202229" remote="131012617230000000" Dst="1" />
+<file name="mobilemenu.css" server="ssh.phx.nearlyfreespeech.net" local="131011637840382230" remote="131012617230000000" Dst="1" />
+<file name="reset.css" server="ssh.phx.nearlyfreespeech.net" local="131011637840512221" remote="131012617240000000" Dst="1" />
 </dwsync>

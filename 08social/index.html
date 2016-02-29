@@ -1,0 +1,139 @@
+ <!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Alex Powelson social</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging whena phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+<!-- LOAD THE LATEST VERSION OF JQUERY-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+<!-- font awesome -->
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+<!-- mobile nav expand -->
+<script>
+	$(document).ready(function(){
+		$(".nav-button").click(function () {
+		$(".nav-button,.primary-nav").toggleClass("open");
+		});    
+	});
+</script>
+
+
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700,300" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+
+<!----- STYLE SHEETS ----->
+<link href="css/reset.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/phone-default.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/tablet.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/desktop.css" rel="stylesheet">
+<!-- mobile menus -->
+<link href="css/mobilemenu.css" rel="stylesheet">
+
+<!-- picturefill -->
+<script async="" src="picturefill/dist/plugins/intrinsic-dimension/pf.intrinsic.min.js"></script>
+<script async="" src="picturefill/dist/picturefill.min.js"></script>
+
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+     
+</head>
+
+<body>
+<!-- <span class="alexpow"><a href="http://www.alexpow.com/">&lt BACK</a></span> -->
+	<header id="headerwrap" class="clearfix">
+    <img src="images/logo.png" alt="lesser logo">
+    <h1>Lesser Magazine</h1>
+    <h2>Local underground music news and photos</h2>
+	<div class="social">
+    	<span class="fa fa-twitter"><a href="#"></a></span>
+        <span class="fa fa-facebook"><a href="#"></a></span>
+        <span class="fa fa-instagram"><a href="#"></a></span>
+        <span class="fa fa-tumblr"><a href="#"></a></span>
+     </div><!-- end social -->
+    </header>
+    
+    
+<div id="navwrap">
+<nav class="clearfix">
+<ul class="primary-nav clearfix">
+    
+<li><a href="index.html" >Image</a>
+    </li>
+    
+<li><a href="index.html" >Data</a>
+    </li>
+    
+
+<li><a href="index.html" >Twitter</a>
+   </li>
+</ul>
+
+
+<!-- phone menu  -->
+<button class="nav-button">Toggle Navigation</button>
+
+ </nav>
+</div>
+
+    
+    
+    <div id="contentwrap"> 
+	<div id="content">
+    <article>
+    <h2>Responsive Image using Picturefill</h2>
+    
+    
+    <figure class="photo30">
+    <picture>
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+			<source srcset="images/imagelarge.jpg" media="(min-width: 800px)">
+			<source srcset="images/imagemedium.jpg" media="(min-width: 500px)">
+            <source srcset="images/imagesmall.jpg">
+			<!--[if IE 9]></video><![endif]-->
+			<img srcset="images/imagesmall.jpg" alt="A bassist">
+    
+    </picture>   
+    </figure>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida at libero vel hendrerit. Ut porttitor suscipit commodo. Aliquam erat volutpat. Praesent a massa viverra, hendrerit orci id, euismod neque. Maecenas non dictum est. Cras fermentum laoreet dui, a consectetur ex volutpat vitae. Suspendisse sagittis, velit nec euismod tempus, arcu lectus bibendum leo, a mollis ante magna sit amet arcu. Vivamus lobortis risus non fermentum auctor. Nam euismod tristique luctus. Phasellus eu viverra metus, eget aliquam neque. Nam iaculis elit vel libero lacinia, at viverra odio dapibus. Nam vitae dolor risus. Donec euismod lorem a dolor malesuada faucibus. Nullam nec ligula nisi.</p>
+    <p>Proin aliquam libero nec commodo ullamcorper. Praesent tempus purus vitae nulla ullamcorper ultrices id sit amet mauris. Nulla dapibus eros nulla, sit amet posuere nunc varius accumsan. Quisque ac dapibus neque. Aenean non odio porttitor nisl consectetur auctor. Etiam rutrum nulla sed lectus semper pharetra. Praesent magna nisi, feugiat at convallis eget, ultrices sit amet enim. Morbi faucibus ultricies nisl, et gravida dui. Curabitur bibendum consectetur ipsum nec rhoncus. Donec erat orci, dapibus sit amet orci id, mattis finibus lacus.</p>
+    </article>
+    
+    <div class="row">
+    <article class="twitter-feed">
+    <h3>Twitter bot created by Alex Powelson</h3>
+    <a class="twitter-timeline" href="https://twitter.com/alexpow_ebooks" data-widget-id="704444318207991808" data-chrome="noheader nofooter noborders noscrollbar">Tweets by @alexpow_ebooks</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </article> 
+    
+    <article class="twitter-feed">
+    <h3>Emoji Tarot for Alex by Eliza</h3>
+    <a class="twitter-timeline" href="https://twitter.com/search?q=twitter.com%2Falexpow%20from%3Aelizathebrute" data-widget-id="704444594084147200" data-chrome="noheader nofooter noborders noscrollbar">Tweets about twitter.com/alexpow from:elizathebrute</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    
+    </article> 
+    </div><!--end twitter row-->
+
+    </div><!-- end content -->
+    </div>
+    
+    <footer>
+    <p>&copy; Alex Powelson 2016</p><span class="fa fa-envelope"></span><span class="fa fa-phone"></span>
+    </footer>
+
+</body>
+</html>

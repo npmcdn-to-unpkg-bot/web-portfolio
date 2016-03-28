@@ -1,0 +1,57 @@
+/* desktop css */
+
+/*-----HEADER -----*/
+header {
+		max-width: 1140px;
+		margin: 0 auto;
+		background-image:url(../images/headerlarge.png);
+		background-repeat:no-repeat;
+		height:500px;	
+		background-position:center;
+		
+}
+
+
+/*-----NAVigation -----*/
+#navwrap {
+	width:100%;
+	display:block;
+	vertical-align:baseline;
+	float:left;
+}
+
+nav {
+	max-width: 1140px;
+	margin: 0 auto;
+	
+	ul li a {padding: .7em;}
+} /* end desktop nav nesting */
+
+/*-----CONTENT -----*/
+
+	#content {
+		margin: 0 auto;
+		max-width: 1140px;
+		border:none;
+		min-height:700px;
+	}
+	
+	article figure {
+		background-color:transparent;	
+	}
+	
+	
+	article figure figcaption {
+		float: none;
+		display:block;
+		width: 66%; 
+		padding: .5em; 
+		margin:0;
+		background-color:white;	
+		text-align:center;
+	}
+	
+	article p
+	{
+	background-color:white;		
+	}

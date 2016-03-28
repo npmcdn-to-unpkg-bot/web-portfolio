@@ -1,0 +1,64 @@
+/* tablet css */
+
+header h1 {
+		font-size:3em;
+}
+header {
+background-image:url(../images/headermedium.jpg);
+background-repeat:no-repeat;
+height:390px;	
+}
+
+/*-----NAVigation -----*/
+#navwrap {
+	background: $light-accent;
+	width:100%;
+}
+
+/* NESTING */
+nav {
+ul {margin-left: 2%;
+li {float: left;
+a { 
+	display:block;
+	color: rgba(255,255,255,0.9);
+	font-size: 1em;
+	padding: 1.2em .9em;
+	font-weight: 400;
+	text-decoration:none;
+	background-color:rgba(255,255,255,0.2);
+	margin-left:.25em;
+}
+a:hover {
+	color: rgba(0,0,0,0.6);	
+	background-color:rgba(255,255,255,0.5);
+}
+
+.current {background-color: $light-accent;}
+} /* end li nesting */
+} /* end ul nesting */
+} /* end nav nesting */
+
+.search {
+	position:static;
+	float: right;
+	margin: .5em;
+}
+
+/*-----CONTENT -----*/
+
+figure.photo30 {
+	/* operator */
+	$width: 3 / 10 * 100%; 
+	width:$width;	
+	float:right;
+	margin:1em;
+	}
+	
+.row {
+	clear: both;
+}
+article.twitter-feed {
+	width:46%;
+	float:left;
+}

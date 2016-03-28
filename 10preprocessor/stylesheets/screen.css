@@ -1,0 +1,611 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* default css */
+/* VARIABLES */
+/* colors */
+/* fonts */
+/* MIXIN */
+/*-----Prevents iPhone from resizing in landscape mode -----*/
+/* line 24, ../sass/_phone.scss */
+html {
+  -webkit-text-size-adjust: none;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+/* line 27, ../sass/_phone.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*-----BODY -----*/
+/* line 30, ../sass/_phone.scss */
+body {
+  font-size: 16px;
+  font-family: Source Sans Pro, sans-serif;
+}
+
+/* line 35, ../sass/_phone.scss */
+span a {
+  font-size: .75em;
+  font-style: italic;
+  color: #A6ACFF;
+  background-color: white;
+  text-decoration: none;
+}
+
+/*-----CONTAINER -----*/
+/* line 43, ../sass/_phone.scss */
+#container {
+  min-width: 320px;
+  max-width: 1140px;
+}
+
+/*-----HEADER -----*/
+/* line 49, ../sass/_phone.scss */
+.social {
+  display: inline;
+  float: right;
+  color: #fff;
+}
+
+/* line 55, ../sass/_phone.scss */
+header {
+  background-image: url(../images/headersmall.jpg);
+  background-repeat: no-repeat;
+  height: 239px;
+}
+
+/* line 60, ../sass/_phone.scss */
+#headerwrap {
+  min-width: 320px;
+  margin-top: 0;
+}
+
+/* line 65, ../sass/_phone.scss */
+header img {
+  float: left;
+  margin: 0 2%;
+  width: 50px;
+}
+
+/* line 70, ../sass/_phone.scss */
+header h1 {
+  font-family: Source Code Pro, sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: #A02DA8;
+}
+
+/* line 76, ../sass/_phone.scss */
+header h2 {
+  font-family: Source Code Pro, sans-serif;
+  font-size: 1.25em;
+  padding-top: .1em;
+  color: #2292AB;
+}
+
+/*-----NAVigation -----*/
+/* line 84, ../sass/_phone.scss */
+.search {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 999;
+}
+
+/* line 91, ../sass/_phone.scss */
+.search input {
+  width: 150px;
+  border-radius: 2px;
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  padding: .5em;
+  color: #ACC0FF;
+}
+
+/*-----CONTENT -----*/
+/* line 102, ../sass/_phone.scss */
+button.first, button.second, button.third, button.fourth {
+  text-align: center;
+  margin: .5em .1em;
+  border: none;
+  font-size: 1.5em;
+  font-style: italic;
+  color: #A6ACFF;
+  border-bottom: 2px solid #A6ACFF;
+  border-top: 2px solid #A6ACFF;
+  background-color: #fff;
+  font-family: Source Code Pro, sans-serif;
+  padding: .1em;
+}
+
+/* line 116, ../sass/_phone.scss */
+button.second {
+  /* extend first button */
+  border-color: #A02DA8;
+}
+
+/* line 122, ../sass/_phone.scss */
+button.third {
+  /* extend first button */
+  border-color: #A5FFD9;
+}
+
+/* line 128, ../sass/_phone.scss */
+button.fourth {
+  /* extend first button */
+  border-color: #2292AB;
+}
+
+/* line 134, ../sass/_phone.scss */
+button:hover {
+  color: #2292AB;
+  border: none;
+}
+
+/* line 141, ../sass/_phone.scss */
+#content {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 143, ../sass/_phone.scss */
+#content h2 {
+  font-size: 2em;
+  padding-top: 1em;
+  margin: .5em 2%;
+  color: #2292AB;
+  font-weight: 700;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* line 151, ../sass/_phone.scss */
+#content h3 {
+  margin: .25em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+/* line 157, ../sass/_phone.scss */
+#content p {
+  padding-top: .6em;
+}
+
+/* line 162, ../sass/_phone.scss */
+figure.photo30 {
+  /* operator */
+  width: 50%;
+  float: right;
+  margin: 1em;
+}
+
+/* line 170, ../sass/_phone.scss */
+article {
+  /* operator */
+  width: 96%;
+  margin: 1em 2%;
+}
+
+/* line 177, ../sass/_phone.scss */
+figure.photo30 img {
+  width: 100%;
+  float: right;
+}
+
+/* line 182, ../sass/_phone.scss */
+article iframe {
+  width: 100%;
+}
+
+/*----- FOOTER -----*/
+/* line 189, ../sass/_phone.scss */
+footer {
+  clear: both;
+  text-align: center;
+  padding: 1em;
+}
+
+/* line 195, ../sass/_phone.scss */
+#footerwrap {
+  clear: both;
+  text-align: center;
+  padding: .5em;
+  font-size: .65em;
+  color: #A5FFD9;
+}
+
+/* line 204, ../sass/_phone.scss */
+footer a {
+  color: #A5FFD9;
+}
+
+/* clear fix */
+/* line 209, ../sass/_phone.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* mobile menu */
+/* line 3, ../sass/_mobilemenu.scss */
+.nav-button {
+  display: none;
+}
+
+/* hide the navigation button by default */
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  /* Navigation Button
+  -------------------------------------------------------- */
+  /* line 10, ../sass/_mobilemenu.scss */
+  .nav-button {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 50px;
+    height: 35px;
+    /*include mixin */
+    background: url("../images/menu-icon-large.png"), -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background: url("../images/menu-icon-large.png"), -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background: url("../images/menu-icon-large.png"), -ms-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background: url("../images/menu-icon-large.png"), -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 21px, 100%;
+    cursor: pointer;
+    border: 0 none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.7) inset;
+    border-radius: 5px;
+    z-index: 999;
+    text-indent: -9999px;
+  }
+
+  /* line 30, ../sass/_mobilemenu.scss */
+  .nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  /* line 33, ../sass/_mobilemenu.scss */
+  .nav-button.open {
+    background: url("../images/close-icon-large.png");
+    background: url("../images/close-icon-large.png");
+    background: url("../images/close-icon-large.png");
+    background: url("../images/close-icon-large.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 21px, 100%;
+  }
+
+  /* Navigation Bar
+  -------------------------------------------------------- */
+  /* line 46, ../sass/_mobilemenu.scss */
+  body {
+    padding-top: 50px;
+  }
+
+  /* line 48, ../sass/_mobilemenu.scss */
+  .primary-nav {
+    width: 100%;
+    float: none;
+    background-color: #ACC0FF;
+    /* change the menu color */
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -ms-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    display: block;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 998;
+    clear: both;
+  }
+
+  /* line 68, ../sass/_mobilemenu.scss */
+  .primary-nav li {
+    display: none;
+    width: 100%;
+    font-family: Arial;
+  }
+
+  /* line 73, ../sass/_mobilemenu.scss */
+  .primary-nav li a {
+    display: block;
+    width: 100%;
+    padding: 10px 5%;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15);
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* line 85, ../sass/_mobilemenu.scss */
+  .primary-nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-color: transparent;
+  }
+
+  /* line 89, ../sass/_mobilemenu.scss */
+  .primary-nav > li:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  /* Toggle the navigation bar open  */
+  /* line 95, ../sass/_mobilemenu.scss */
+  .primary-nav.open {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  /* line 99, ../sass/_mobilemenu.scss */
+  .primary-nav.open li {
+    display: block;
+  }
+
+  /* Submenus – optional .parent class indicates dropdowns */
+  /* line 105, ../sass/_mobilemenu.scss */
+  .primary-nav > li:hover > a {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom-color: transparent;
+  }
+
+  /* line 109, ../sass/_mobilemenu.scss */
+  .primary-nav li.parent > a:after {
+    content: "▼";
+    color: rgba(255, 255, 255, 0.5);
+    float: right;
+  }
+
+  /* line 114, ../sass/_mobilemenu.scss */
+  .primary-nav li.parent > a:hover {
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  /* line 117, ../sass/_mobilemenu.scss */
+  .primary-nav li ul {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 0 none;
+    padding: 0;
+  }
+
+  /* line 123, ../sass/_mobilemenu.scss */
+  .primary-nav li ul a {
+    border: 0 none;
+    font-size: 12px;
+    padding: 10px 5%;
+    font-weight: normal;
+  }
+
+  /* line 129, ../sass/_mobilemenu.scss */
+  .primary-nav li:hover ul {
+    display: block;
+    border-top: 0 none;
+  }
+}
+/* End Mobile Styles */
+@media only screen and (min-width: 500px) {
+  /* tablet css */
+  /* line 3, ../sass/_tab.scss */
+  header h1 {
+    font-size: 3em;
+  }
+
+  /* line 6, ../sass/_tab.scss */
+  header {
+    background-image: url(../images/headermedium.jpg);
+    background-repeat: no-repeat;
+    height: 390px;
+  }
+
+  /*-----NAVigation -----*/
+  /* line 13, ../sass/_tab.scss */
+  #navwrap {
+    background: #ACC0FF;
+    width: 100%;
+  }
+
+  /* NESTING */
+  /* line 19, ../sass/_tab.scss */
+  nav {
+    /* end ul nesting */
+  }
+  /* line 20, ../sass/_tab.scss */
+  nav ul {
+    margin-left: 2%;
+    /* end li nesting */
+  }
+  /* line 21, ../sass/_tab.scss */
+  nav ul li {
+    float: left;
+  }
+  /* line 22, ../sass/_tab.scss */
+  nav ul li a {
+    display: block;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1em;
+    padding: 1.2em .9em;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-left: .25em;
+  }
+  /* line 32, ../sass/_tab.scss */
+  nav ul li a:hover {
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  /* line 37, ../sass/_tab.scss */
+  nav ul li .current {
+    background-color: #ACC0FF;
+  }
+
+  /* end nav nesting */
+  /* line 42, ../sass/_tab.scss */
+  .search {
+    position: static;
+    float: right;
+    margin: .5em;
+  }
+
+  /*-----CONTENT -----*/
+  /* line 50, ../sass/_tab.scss */
+  figure.photo30 {
+    /* operator */
+    width: 30%;
+    float: right;
+    margin: 1em;
+  }
+
+  /* line 58, ../sass/_tab.scss */
+  .row {
+    clear: both;
+  }
+
+  /* line 61, ../sass/_tab.scss */
+  article.twitter-feed {
+    width: 46%;
+    float: left;
+  }
+}
+@media only screen and (min-width: 800px) {
+  /* desktop css */
+  /*-----HEADER -----*/
+  /* line 4, ../sass/_desk.scss */
+  header {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-image: url(../images/headerlarge.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+  }
+
+  /*-----NAVigation -----*/
+  /* line 16, ../sass/_desk.scss */
+  #navwrap {
+    width: 100%;
+    display: block;
+    vertical-align: baseline;
+    float: left;
+  }
+
+  /* line 23, ../sass/_desk.scss */
+  nav {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  /* line 27, ../sass/_desk.scss */
+  nav ul li a {
+    padding: .7em;
+  }
+
+  /* end desktop nav nesting */
+  /*-----CONTENT -----*/
+  /* line 32, ../sass/_desk.scss */
+  #content {
+    margin: 0 auto;
+    max-width: 1140px;
+    border: none;
+    min-height: 700px;
+  }
+
+  /* line 39, ../sass/_desk.scss */
+  article figure {
+    background-color: transparent;
+  }
+
+  /* line 44, ../sass/_desk.scss */
+  article figure figcaption {
+    float: none;
+    display: block;
+    width: 66%;
+    padding: .5em;
+    margin: 0;
+    background-color: white;
+    text-align: center;
+  }
+
+  /* line 54, ../sass/_desk.scss */
+  article p {
+    background-color: white;
+  }
+}

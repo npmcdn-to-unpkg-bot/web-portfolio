@@ -1,0 +1,467 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* default css */
+/* VARIABLES */
+/* colors */
+/* fonts */
+/* MIXIN */
+/*-----Prevents iPhone from resizing in landscape mode -----*/
+/* line 24, ../sass/_phone.scss */
+html {
+  -webkit-text-size-adjust: none;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+/* line 27, ../sass/_phone.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*-----BODY -----*/
+/* line 30, ../sass/_phone.scss */
+body {
+  font-size: 16px;
+  font-family: Source Sans Pro, sans-serif;
+}
+
+/*-----CONTAINER -----*/
+/* line 36, ../sass/_phone.scss */
+#container {
+  min-width: 320px;
+  max-width: 1140px;
+}
+
+/* Colors */
+/* line 43, ../sass/_phone.scss */
+body {
+  background-color: #82a185;
+  background-image: url("http://www.transparenttextures.com/patterns/fake-brick.png");
+}
+
+/* line 49, ../sass/_phone.scss */
+.blog-title {
+  font-family: Source Code Pro, sans-serif;
+  font-size: 150px;
+}
+
+/* line 55, ../sass/_phone.scss */
+h1, h2 {
+  font-family: Source Code Pro, sans-serif;
+}
+
+/* line 63, ../sass/_phone.scss */
+.blog-title a,
+.description,
+.search-no-results {
+  color: #00420d;
+}
+
+/* line 69, ../sass/_phone.scss */
+a {
+  color: #4E7B55;
+}
+
+/* line 74, ../sass/_phone.scss */
+h1 a:hover {
+  color: #4E7B55;
+}
+
+/* line 80, ../sass/_phone.scss */
+#pagination a,
+.nav-wrapper .nav-item .label {
+  color: #4E7B55;
+}
+
+/* line 85, ../sass/_phone.scss */
+#pagination a.next:after {
+  border-left-color: #4E7B55;
+}
+
+/* line 89, ../sass/_phone.scss */
+#pagination a.previous:after {
+  border-right-color: #4E7B55;
+}
+
+/* line 93, ../sass/_phone.scss */
+.loader .loader-bar {
+  background-color: #00420d;
+}
+
+/* line 99, ../sass/_phone.scss */
+.user-avatar {
+  background-color: #d0dacd;
+  border-color: #d0dacd;
+}
+
+/* line 104, ../sass/_phone.scss */
+.avatar-style-square .user-avatar {
+  -webkit-box-shadow: 0 0 0 4px #d0dacd;
+  box-shadow: 0 0 0 4px #d0dacd;
+}
+
+/* line 109, ../sass/_phone.scss */
+.no-header-image .logo-wrapper,
+.contain-header-image .logo-wrapper {
+  color: #4E7B55;
+}
+
+/* line 114, ../sass/_phone.scss */
+nav {
+  display: inline;
+}
+
+/* line 118, ../sass/_phone.scss */
+.nav-wrapper.content {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  float: left;
+  margin: 5px;
+  display: inline;
+  max-width: 500px;
+  font-family: Source Code Pro, sans-serif;
+  font-size: 16px;
+}
+
+/* line 130, ../sass/_phone.scss */
+.nav-menu {
+  display: inline;
+}
+
+/* line 136, ../sass/_phone.scss */
+.inline-nav ul {
+  display: inline;
+  margin: 0px;
+}
+
+/* line 143, ../sass/_phone.scss */
+.nav-item a:hover {
+  border: solid 1 px #00420d;
+}
+
+/* line 148, ../sass/_phone.scss */
+.nav-wrapper .nav-item .label {
+  text-transform: lowercase;
+}
+
+/* line 152, ../sass/_phone.scss */
+.search-wrapper {
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  max-width: 100px;
+  display: inline;
+}
+
+/* line 160, ../sass/_phone.scss */
+figcaption, p, footer, .post-extra {
+  font-family: Source Sans Pro, sans-serif;
+}
+
+/* line 164, ../sass/_phone.scss */
+.post-content h1, .post-content h2 {
+  font-family: Source Code Pro, sans-serif;
+}
+
+/* line 168, ../sass/_phone.scss */
+.post-wrapper {
+  border-radius: 0px;
+  border: 1px solid #4E7B55;
+}
+
+/* line 174, ../sass/_phone.scss */
+.inline-meta {
+  color: #4E7B55;
+}
+
+/* line 179, ../sass/_phone.scss */
+.post-controls {
+  color: #4E7B55;
+}
+
+/* line 184, ../sass/_phone.scss */
+.related-posts-wrapper > h2 {
+  color: #00420d;
+}
+
+/* line 188, ../sass/_phone.scss */
+.grid {
+  width: 700px;
+}
+
+/* line 193, ../sass/_phone.scss */
+.grid-sizer {
+  width: 100%;
+}
+
+/* line 194, ../sass/_phone.scss */
+.gutter-sizer {
+  width: 5%;
+}
+
+/* line 196, ../sass/_phone.scss */
+.stamp {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* line 201, ../sass/_phone.scss */
+.grid-item {
+  float: left;
+  width: 45%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* clear fix */
+/* line 210, ../sass/_phone.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* mobile menu */
+/* line 3, ../sass/_mobilemenu.scss */
+.nav-button {
+  display: none;
+}
+
+/* hide the navigation button by default */
+@media only screen and (min-width: 0px) and (max-width: 599px) {
+  /* Navigation Button
+  -------------------------------------------------------- */
+  /* line 10, ../sass/_mobilemenu.scss */
+  .nav-button {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    width: 50px;
+    height: 35px;
+    /*include mixin */
+    background: url("../images/menu-icon-large.png"), -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background: url("../images/menu-icon-large.png"), -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background: url("../images/menu-icon-large.png"), -ms-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background: url("../images/menu-icon-large.png"), -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 21px, 100%;
+    cursor: pointer;
+    border: 0 none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.7) inset;
+    border-radius: 5px;
+    z-index: 999;
+    text-indent: -9999px;
+  }
+
+  /* line 30, ../sass/_mobilemenu.scss */
+  .nav-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  /* line 33, ../sass/_mobilemenu.scss */
+  .nav-button.open {
+    background: url("../images/close-icon-large.png");
+    background: url("../images/close-icon-large.png");
+    background: url("../images/close-icon-large.png");
+    background: url("../images/close-icon-large.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 21px, 100%;
+  }
+
+  /* Navigation Bar
+  -------------------------------------------------------- */
+  /* line 46, ../sass/_mobilemenu.scss */
+  body {
+    padding-top: 50px;
+  }
+
+  /* line 48, ../sass/_mobilemenu.scss */
+  .primary-nav {
+    width: 100%;
+    float: none;
+    background-color: #ACC0FF;
+    /* change the menu color */
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -ms-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    display: block;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 998;
+    clear: both;
+  }
+
+  /* line 68, ../sass/_mobilemenu.scss */
+  .primary-nav li {
+    display: none;
+    width: 100%;
+    font-family: Arial;
+  }
+
+  /* line 73, ../sass/_mobilemenu.scss */
+  .primary-nav li a {
+    display: block;
+    width: 100%;
+    padding: 10px 5%;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.15);
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* line 85, ../sass/_mobilemenu.scss */
+  .primary-nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-color: transparent;
+  }
+
+  /* line 89, ../sass/_mobilemenu.scss */
+  .primary-nav > li:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  /* Toggle the navigation bar open  */
+  /* line 95, ../sass/_mobilemenu.scss */
+  .primary-nav.open {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  /* line 99, ../sass/_mobilemenu.scss */
+  .primary-nav.open li {
+    display: block;
+  }
+
+  /* Submenus – optional .parent class indicates dropdowns */
+  /* line 105, ../sass/_mobilemenu.scss */
+  .primary-nav > li:hover > a {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom-color: transparent;
+  }
+
+  /* line 109, ../sass/_mobilemenu.scss */
+  .primary-nav li.parent > a:after {
+    content: "▼";
+    color: rgba(255, 255, 255, 0.5);
+    float: right;
+  }
+
+  /* line 114, ../sass/_mobilemenu.scss */
+  .primary-nav li.parent > a:hover {
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  /* line 117, ../sass/_mobilemenu.scss */
+  .primary-nav li ul {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 0 none;
+    padding: 0;
+  }
+
+  /* line 123, ../sass/_mobilemenu.scss */
+  .primary-nav li ul a {
+    border: 0 none;
+    font-size: 12px;
+    padding: 10px 5%;
+    font-weight: normal;
+  }
+
+  /* line 129, ../sass/_mobilemenu.scss */
+  .primary-nav li:hover ul {
+    display: block;
+    border-top: 0 none;
+  }
+}
+/* End Mobile Styles */
+@media only screen and (min-width: 500px) {
+  /* tablet css */
+}
+@media only screen and (min-width: 800px) {
+  /* desktop css */
+}

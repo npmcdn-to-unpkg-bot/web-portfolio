@@ -215,3 +215,9 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 *.psd
+*.scssc
+*.scss
+11php/sass/_notes/dwsync.xml
+*.xml
+11php/config.rb
+11php/js/masonry.pkgd.min.js

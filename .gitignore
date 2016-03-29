@@ -221,3 +221,8 @@ pip-log.txt
 *.xml
 11php/config.rb
 11php/js/masonry.pkgd.min.js
+11php/htmlpages/about.html
+11php/htmlpages/submit.html
+11php/htmlpages/tags.html
+11php/htmlpages/index.html
+11php/htmlpages/ask.html

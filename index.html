@@ -1,44 +1,83 @@
 <!doctype html>
 <html>
+<!--
+     @     ||        |+++++++ X    X  ###   00   \\                // 
+   @   @   ||        |         X  X   #  # 0  0   \\              //
+  @@@@@@@  ||        |====      XX    ###  0  0    \\    //\\    //
+ @       @ ||        |         X  X   #    0  0     \\  //  \\  //
+@         @||======  |_______ X    X  #     00       \\//    \\//
+-->
 <head>
 <meta charset="utf-8">
-<title>Alex Powelson DGM 2740</title>
-<style type="text/css">
-/*desktop and large screens*/
-@media only screen and (min-device-width: 901px) {
-  span { 
-    background-color: #2D327F; 
-    width:100%;
-    color:white;
-  }
-}
-/*tablet*/
-@media only screen and (min-device-width: 501px) and (max-device-width: 900px) {
-   span { 
-     background-color: #5965FF; 
-     width:100%;
-     color:black;
-   }
-}
-/*phone*/
-@media only screen and  (max-device-width: 500px) {
-   span { 
-     background-color: #A6ACFF; 
-     width:100%;
-     color:black;
-   }
-}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script src="jquery.lazyload.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function() {
+    $("img.lazy").lazyload(
+	{threshold: 400, effect: "fadeIn"}
+	);
+});
+</script>
 
-</style>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:400,300,300italic,400italic,700,700italic|Roboto+Mono:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic|Roboto+Slab:400,100,300,700|Source+Code+Pro:500" rel="stylesheet" type="text/css">
+<!-- CSS -->
+<link href="reset.css" rel="stylesheet" >
+<link href="http://www.alexpow.com/alexpow.css" rel="stylesheet" >
+<meta name="viewport" content="width=device-width, inital-scale=1, maximum-scale=1">
+<title>Alex Powelson</title>
 </head>
-
 <body>
-<h1>Alex Powelson</h1>
-<h2>Assignment 2: media queries </h2>
-<p>The width of your browser is:</p>
-<span>greater than 901 px</span>
-<span>between 500 and 900 px</span>
-<span>less than 500 px</span>
+   <div id="container">
+
+<header><h1><a href="http://www.alexpow.com" target="_blank">ALEX POWELSON</a></h1></header>
+	
+    <div id="content">
+
+    <h1><a href="http://www.drpauluvu.com/dgm2740.php">DGM 2740</a></h1>
+    <h2>Principles of Web Languages</h2>
+    <h3>HTML5 | CSS3 | JavaScript | jQuery | PHP</h3>
+   <ul>
+	<!-- <li><a href="http://dgm2740.alexpow.com/final/">Final project</a></li> -->
+	<!-- <li><a href="http://dgm2740.alexpow.com/13mobileapp/">jQuery mobile</a></li> -->
+    <!-- <li><a href="http://dgm2740.alexpow.com/12CSSframework/">CSS Frameworks</a></li> -->
+    <li><a href="http://dgm2740.alexpow.com/11php/index.php">PHP include & CSS menu activation</a></li>
+    <li><a href="http://dgm2740.alexpow.com/10preprocessor/">CSS Preprocessor: SASS</a></li>
+    <li><a href="http://dgm2740.alexpow.com/09loading/">Lazy Loading Images</a></li>
+    <li><a href="http://dgm2740.alexpow.com/08social/index.html">Responsive Images and Twitter</a></li>
+    <li><a href="http://dgm2740.alexpow.com/07media/index.html">Responsive Image Slider</a></li>
+    <li><a href="http://dgm2740.alexpow.com/07media/thumb.html">Responsive Thumbnail Slider</a></li>
+    <li><a href="http://dgm2740.alexpow.com/07media/video.html">Responsive Video</a></li>
+    <li><a href="http://dgm2740.alexpow.com/06forms/">Form</a></li>
+    <li><a href="http://dgm2740.alexpow.com/05cNews/">Responsive Navigation: Menu button on mobile </a></li>
+    <li><a href="http://dgm2740.alexpow.com/05bHomeCenter/">Responsive Navigation: Drop down menu on mobile</a></li>
+    <li><a href="http://dgm2740.alexpow.com/05aNavigation/">Responsive Navigation: Show/hide jQuery button for mobile</a></li>
+    <li><a href="http://dgm2740.alexpow.com/03responsiveDesign/">Responsive Design</a></li>
+    
+    </ul>
+
+    </div> <!-- end content -->
+
+  
+  <footer>
+  <div class="social">
+      	<a href="http://github.com/alexpow" target="_blank"><span class="fa fa-github"></span></a>
+        <a href="http://twitter.com/alexpow" target="_blank"><span class="fa fa-twitter"></span></a>
+        <a href="http://instagram.com/alexpow" target="_blank"><span class="fa fa-instagram"></span></a>
+        <a href="http://alexpow.tumblr.com" target="_blank"><span class="fa fa-tumblr"></span></a>
+      </div>  
+        <div class="email">
+<a href="mailto:alex@alexpow.com" target="_top" class="email"><span class="fa fa-envelope"></span>alex@alexpow.com</a></div>
+  </footer>
+
+
+</div>
+
+
 </body>
 </html>

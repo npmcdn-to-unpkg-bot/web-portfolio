@@ -1,7 +1,7 @@
 #DGM2740
 <h2>Principles of Web Languages</h2>
 <h3>Spring 2016</h3>
-<a href="http://dgm2740.alexpow.com/11php/index.php">PHP </a><br>
+<a href="http://dgm2740.alexpow.com/11php/index.php">PHP include & CSS menu activation</a><br>
 <a href="http://dgm2740.alexpow.com/10preprocessor/">CSS Preprocessor: SASS</a><br>
 <a href="http://dgm2740.alexpow.com/09loading/">Lazy Loading Images</a><br>
 <a href="http://dgm2740.alexpow.com/08social/index.html">Responsive Images and Twitter</a><br>

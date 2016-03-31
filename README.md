@@ -1,5 +1,5 @@
 #DGM2740
-<h2>Principles of Web Languages</h2>
+<h2><a href="http://www.drpauluvu.com/dgm2740.php" target="_blank">Principles of Web Languages</a></h2>
 <h3>Spring 2016</h3>
 <a href="http://dgm2740.alexpow.com/11php/index.php">PHP include & CSS menu activation</a><br>
 <a href="http://dgm2740.alexpow.com/10preprocessor/">CSS Preprocessor: SASS</a><br>

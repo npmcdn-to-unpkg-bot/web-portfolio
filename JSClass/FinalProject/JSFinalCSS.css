@@ -1,0 +1,180 @@
+
+
+/*body style*/
+body {
+	font-size:14px;
+	font-weight:normal;
+	font-family:sans-serif;
+}
+/*anchor style*/
+a
+{text-decoration:none;
+}
+a:link {color:#76D3E8;}     
+a:visited {color:#76D3E8;} 
+a:hover {color:#7AFF8C;}   
+a:active {color:#BEB0FF;}  
+	
+/*container of everything*/
+#container	{
+	min-width:300px; 
+	max-width:600px;  
+box-shadow:5px 5px 15px white;
+	background-color:white;
+	margin:0 auto;
+	
+}
+
+
+h1 {
+	font-size:36px;
+	color:#BEB0FF;
+	
+	
+	
+}
+h2 {
+	font-size:28px;
+	color:#E894CA;
+	
+}
+
+
+
+/*content style*/
+#content {
+	background-color:white;
+	padding:10px;
+	margin:10px 20px;
+
+	
+}
+
+/*paragraph style*/
+#content p, ul, ol, dl {
+	font-size:16px;
+	color:black;
+	padding:20px 20px;
+
+}
+#content ul {
+	list-style-type:square;
+	
+}
+#content ul li{
+	list-style-type:square;
+	
+	
+}
+#content ol {
+	
+	margin:5px;
+	list-style-type:lower-alpha;
+	
+}
+
+#content dl {
+	margin:5px;
+	
+	
+	
+}
+
+div.openpics {
+	clear:both;
+}
+
+figure.buffyabbie {
+	float:right;
+	width:25%;
+	margin-left:2%;
+	padding:1px 1px;
+	border:solid 2px #BEB0FF;
+	box-shadow: 5px 5px 10px #BEB0FF;
+}
+figure.buffyabbie img {
+	width:100%;
+}
+figure.buffyabbie figcaption {
+	text-align:center;
+	font-size:10px;
+
+}
+
+/*photo gallery style*/
+
+figure {
+	float:left;
+	padding:1px 1px;
+	margin:.5em;
+	height:220px;
+}
+figure img {
+	width:150px;
+}
+figure figcaption {
+	font-size:10px;
+	text-align:center;
+}
+
+/*contact form style*/
+form fieldset {
+	background-color:#FFE4D5;
+	border:solid 2px #BEB0FF;
+	border-radius:5px;
+	margin:10px;
+	width:220px;
+}
+
+form legend {
+	color:#BEB0FF;
+	background-color:white;
+}
+
+form label {
+	display:block;
+	padding:1px;
+	color:black;
+}
+form input {
+	border:solid 1px #BEB0FF;
+	border-radius:2px;
+	
+}
+
+form textarea {
+	border:solid 1px #BEB0FF;
+	border-radius:2px;
+  width:225px;
+  height:100px;
+
+}
+
+button {
+	border:solid 2px #BEB0FF;
+	border-radius:5px;
+	padding:5px;
+	color:#BEB0FF;
+	background-color:white;
+	font-size:24px;
+}
+
+/*iframe style*/
+iframe.location {
+width:40%;
+height:50%;
+
+}
+
+iframe.abbievid {
+width:75%;
+height:400px;
+
+}
+
+/*footer style*/
+footer {
+	clear:both;
+	margin: 25px;
+	text-align:center;
+}

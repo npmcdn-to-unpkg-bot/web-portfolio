@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="bunnystyle.css" rel="stylesheet" >
+	<meta name="viewport" content="width=device-width, inital-scale=1, maximum-scale=1">
+	<title>Buffy & Abbie - Contact</title>
+</head>
+<body>
+<div id="container">
+<span><a href="http://www.alexpow.com/portfolio">BACK TO PORTFOLIO</a></span>
+<header>
+	<h1>Buffy & Abbie</h1>
+	<h2>Lessons from two bunnies</h2>
+</header>
+<nav>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="buffy.html">Buffy</a></li><!--set this class to active -->
+	<li><a href="abbie.html">Abbie</a></li> <!-- placeholder link not yet a page -->
+	<li><a href="basiccare.html">Basic Care</a></li>
+	<li><a href="foods.html">Food</a></li>
+	<li class="activepage"><a href="contact.html">Contact</a></li>
+	
+	</ul>
+	<div class="opennav"></div>
+</nav>
+<div id="content">
+<h2>Contact Me</h2>
+<p>Address:<br/>
+193 N 2000 W<br/>
+Lindon, UT 84042
+</p>
+
+<iframe class="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.104715697675!2d-111.76048100000001!3d40.340022999999974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d8478898bb9e9%3A0x5d262cee96cf29a6!2sNorth+Utah+Valley+Animal+Shelter!5e0!3m2!1sen!2sus!4v1402980012435" frameborder="0" style="border:0"></iframe>
+
+<form class="contactme" action="FormToEmail.php" method="POST" >
+
+<fieldset>
+<legend>Your information *Required</legend>
+	<label>Name*: <!-- text --></label>
+	<label><input type="text" name="fullname" pattern="[a-zA-Z-. ]{2-50}" required /></label>
+	<label>Email*:  <!-- email --></label>
+	<label><input type="email" name="emailme"  required/></label>
+	<label>Phone*:  <!-- tel --></label>
+	<label><input type="tel" name="phonenum" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/></label>
+</fieldset>
+
+<fieldset>
+<legend>Your thoughts</legend>
+	<label>Favorite rabbit: <!-- radio --></label>
+	<label><input type="radio" name="rabbitfav" value="Buffy">Buffy</label>
+	<label><input type="radio" name="rabbitfav" value="Abbie">Abbie</label>
+	<label>What would you like to learn more about:  <!-- checkbox --></label>
+	<label><input type="checkbox" name="food" value="Food">Food</label>
+	<label><input type="checkbox" name="litter" value="Litter">Litter</label>
+	<label><input type="checkbox" name="nails" value="Nail trimming">Nail trimming</label>
+	<label><input type="checkbox" name="sleep" value="Sleeping">Sleeping</label>
+	<label>Best page on this site:  <!-- select -->
+	<select>
+		<option value="homepage">Home page</option>
+		<option value="buffypage">Buffy</option>
+		<option value="abbiepage">Abbie</option>
+		<option value="carepage">Basic Care</option>
+		<option value="thispage">Contact</option>
+	</select></label>
+	
+</fieldset>
+
+<fieldset>
+<legend>Questions and send</legend>
+	<label>What is your question? <!-- textarea --></label>
+	<label><textarea name="userquestion" rows="5" cols="20">
+	
+	</textarea></label>
+	
+	
+		<input type="hidden" name="redirect" value="sent.html"><!-- hidden input for redirect -->
+	
+	<label><input type="submit" value="Send email" name="Submit" class="button"></label>
+
+	<input type="hidden" name="subject" value="Rabbit contact"><!-- hidden input for email subject -->
+	
+</fieldset>
+</form>
+
+
+
+
+
+</div><!-- end of content -->
+<footer>
+	<p>
+	&copy; &bull;May 20, 2014&bull; by &diams; <a href="mailto:alexpow8@gmail.com?Subject=Rabbits">Alex Powelson (email me)</a> &diams;
+	</p>
+</footer>
+</div>
+</body>
+</html>

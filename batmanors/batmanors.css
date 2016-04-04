@@ -1,0 +1,30 @@
+body {
+	background-color:#e5fff2;
+
+
+}
+
+/*container of everything*/
+#container	{
+	min-width:300px; 
+	max-width:1000px;  
+	margin:0 auto;
+}
+
+
+figure.header img {
+width:800px;
+
+}
+
+figure.links img {
+width:35%;
+float:left;
+margin:5%;
+}
+
+iframe {
+margin:30px;
+float:left;
+}
+

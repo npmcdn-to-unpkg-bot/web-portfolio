@@ -14,15 +14,15 @@
   
   <div data-sticky-container>
   	<nav class="top-bar" data-topbar data-sticky data-options="marginTop:0;" style="width:100%">
-    	<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+    	<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
   <button class="menu-icon" type="button" data-toggle><i class="fa fa-list"></i></button>
   <div class="title-bar-title"></div>
 </div>
 
-<div class="top-bar" id="example-menu">
+<div class="top-bar" id="responsive-menu">
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">Foundation</li>
+      <li class="menu-text">Grid</li>
       <li>
         <a href="#">One</a>
         <ul class="menu vertical">
@@ -55,7 +55,7 @@
 			<h1>Basic Grid</h1>
             
             <ul class="tabs" data-tabs id="example-tabs">
-  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Image Slider</a></li>
+  <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Flex video</a></li>
   <li class="tabs-title"><a href="#panel2">Form</a></li>
   <li class="tabs-title"><a href="#panel3">Buttons</a></li>
   <li class="tabs-title"><a href="#panel4">Image Grid</a></li>
@@ -65,12 +65,10 @@
   <div class="tabs-panel is-active" id="panel1">
     <div class="row">
     <div class="column small-12 medium-9 large-10">
-    <div class="orbit" data-orbit>
-    
-    	<figure><img src="images/medusafest-1.jpg" alt=""><figcaption></figcaption></figure>
-
-    
-    </div><!-- end orbit -->    
+    <div class="flex-video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UcAdibNX2M8" frameborder="0" allowfullscreen></iframe>
+</div>
+   
     </div><!-- end column -->
     
     <div class="columns small-12 medium-3 large-2">
@@ -86,27 +84,28 @@
   	<form>
     <div class="row">
     	<div class="medium-6 columns">
-      <label>Input Label
-        <input type="text" placeholder=".medium-6.columns">
+      <label>Name
+        <input type="text" placeholder="First Last">
       </label>
     </div>
     <div class="medium-6 columns">
-      <label>Input Label
-        <input type="text" placeholder=".medium-6.columns">
+      <label>Nickname
+        <input type="text" placeholder="Nickname">
       </label>
     	</div>
         <fieldset class="large-6 columns">
     <legend>Choose Your Favorite</legend>
-    <input type="radio" name="pokemon" value="Red" id="pokemonRed" required><label for="pokemonRed">Red</label>
-    <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
-    <input type="radio" name="pokemon" value="Yellow" id="pokemonYellow"><label for="pokemonYellow">Yellow</label>
+    <input type="radio" name="colors" value="Purple" id="colorPurple" required><label for="colorPurple">Purple</label>
+    <input type="radio" name="colors" value="Green" id="colorGreen"><label for="colorGreen">Green</label>
+    <input type="radio" name="colors" value="Orange" id="colorOrange"><label for="colorOrange">Orange</label>
   </fieldset>
   <fieldset class="large-6 columns">
-    <legend>Check these out</legend>
-    <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-    <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-    <input id="checkbox3" type="checkbox"><label for="checkbox3">Checkbox 3</label>
+    <legend>Do you like those colors?</legend>
+    <input id="checkbox1" type="checkbox"><label for="checkbox1">Barely</label>
+    <input id="checkbox2" type="checkbox"><label for="checkbox2">Kinda</label>
+    <input id="checkbox3" type="checkbox"><label for="checkbox3">Mostly</label>
   </fieldset>
+  
     </div>
     </form>
     
@@ -116,14 +115,14 @@
   		        <div class="columns small-12 medium-12 large-4">
 			<h2>First</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum, urna lobortis facilisis facilisis, nulla ipsum pellentesque orci, ut commodo urna turpis quis nunc. Mauris sit amet justo lorem. Ut odio ante, fringilla at maximus ut, molestie nec lacus. Donec rutrum eu orci ac ullamcorper. Nulla facilisi. Nulla nec turpis leo. Nullam sit amet diam id mauris condimentum aliquam nec non est. Duis tempus leo non nibh congue fermentum. Pellentesque id faucibus nibh.</p>
-<a class="success button" href="#">Success Color</a>
+<a class="success button" href="#">Good!</a>
 		</div> <!-- end first column -->
         
         <div class="columns small-12 medium-6 large-4">
 			<h2>Left</h2>
             <img class="thumbnail" src="images/thumb.jpg" alt="Thumbnail image">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum, urna lobortis facilisis facilisis, nulla ipsum pellentesque orci, ut commodo urna turpis quis nunc. </p>
-<a class="alert button" href="#">Alert Color</a>
+<a class="alert button" href="#">Bad!</a>
 
 		</div> <!-- end left column -->
         
@@ -131,7 +130,7 @@
 			<h2>Right</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum, urna lobortis facilisis facilisis, nulla ipsum pellentesque orci, ut commodo urna turpis quis nunc. Mauris sit amet justo lorem. Ut odio ante, fringilla at maximus ut, molestie nec lacus. Donec rutrum eu orci ac ullamcorper. Nulla facilisi. Nulla nec turpis leo. Nullam sit amet diam id mauris condimentum aliquam nec non est. Duis tempus leo non nibh congue fermentum. Pellentesque id faucibus nibh.</p>
 
-<a class="secondary button" href="#">Secondary Color</a>
+<a class="secondary button" href="#">OK!</a>
 
 		</div> <!-- end right column -->
   </div>
@@ -139,18 +138,18 @@
   
   <div class="tabs-panel" id="panel4">
   		    <div class="row small-up-1 medium-up-3 large-up-5">
-    	<div class="column"><figure><img src="images/medusafest-1.jpg" alt=""><figcaption></figcaption></figure></div>
-        <div class="column"><figure><img src="images/medusafest-2.jpg" alt=""><figcaption></figcaption></figure></div>
-        <div class="column"><figure><img src="images/medusafest-3.jpg" alt=""><figcaption></figcaption></figure></div>
-        <div class="column"><figure><img src="images/medusafest-4.jpg" alt=""><figcaption></figcaption></figure></div>
-        <div class="column"><figure><img src="images/medusafest-5.jpg" alt=""><figcaption></figcaption></figure></div>
-        <div class="column"><figure><img src="images/medusafest-6.jpg" alt=""><figcaption></figcaption></figure></div>
-        <div class="column"><figure><img src="images/medusafest-7.jpg" alt=""><figcaption></figcaption></figure></div>
-        <div class="column"><figure><img src="images/medusafest-8.jpg" alt=""><figcaption></figcaption></figure></div>
-        <div class="column"><figure><img src="images/medusafest-9.jpg" alt=""><figcaption></figcaption></figure></div>
-        <div class="column"><figure><img src="images/medusafest-10.jpg" alt=""><figcaption></figcaption></figure></div>
-        <div class="column"><figure><img src="images/medusafest-11.jpg" alt=""><figcaption></figcaption></figure></div>
-        <div class="column"><figure><img src="images/medusafest-12.jpg" alt=""><figcaption></figcaption></figure></div>
+    	<div class="column"><figure><img src="images/medusafest-1.jpg" alt=""><figcaption>Band 1</figcaption></figure></div>
+        <div class="column"><figure><img src="images/medusafest-2.jpg" alt=""><figcaption>Band 2</figcaption></figure></div>
+        <div class="column"><figure><img src="images/medusafest-3.jpg" alt=""><figcaption>Band 2</figcaption></figure></div>
+        <div class="column"><figure><img src="images/medusafest-4.jpg" alt=""><figcaption>Band 2</figcaption></figure></div>
+        <div class="column"><figure><img src="images/medusafest-5.jpg" alt=""><figcaption>Band 3</figcaption></figure></div>
+        <div class="column"><figure><img src="images/medusafest-6.jpg" alt=""><figcaption>Band 3</figcaption></figure></div>
+        <div class="column"><figure><img src="images/medusafest-7.jpg" alt=""><figcaption>Band 3</figcaption></figure></div>
+        <div class="column"><figure><img src="images/medusafest-8.jpg" alt=""><figcaption>Band 3</figcaption></figure></div>
+        <div class="column"><figure><img src="images/medusafest-9.jpg" alt=""><figcaption>Band 4</figcaption></figure></div>
+        <div class="column"><figure><img src="images/medusafest-10.jpg" alt=""><figcaption>Band 4</figcaption></figure></div>
+        <div class="column"><figure><img src="images/medusafest-11.jpg" alt=""><figcaption>Band 4</figcaption></figure></div>
+        <div class="column"><figure><img src="images/medusafest-12.jpg" alt=""><figcaption>Band 4</figcaption></figure></div>
     </div><!-- end row -->	
   </div>
   
@@ -166,7 +165,7 @@
     
 
     
- <footer></footer>
+ <footer>&copy; Alex Powelson 2016</footer>
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>

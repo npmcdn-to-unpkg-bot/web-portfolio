@@ -1,0 +1,43 @@
+/* phone as default */
+header {
+margin:0;
+background-image:url(../images/headersmall.jpg);
+height:230px;
+background-size:auto;
+background-repeat:no-repeat;
+}
+
+nav.top-bar {
+margin:0;	
+}
+
+figure, img {
+margin:0;	
+display:inline;
+}
+
+
+ul li {
+	list-style:none;
+	display:inline;
+}
+
+
+
+/* tablet */
+@media only screen and (min-width: 40em) {
+header {
+background-image:url(../images/headermedium.jpg);
+height:390px;
+}
+	
+}
+
+/* desktop */ 
+@media only screen and (min-width: 64em) {
+header {
+background-image:url(../images/headerlarge.jpg);
+height:500px;
+}
+	
+}

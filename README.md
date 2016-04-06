@@ -1,9 +1,5 @@
 #Web Development
-    <h2>Responsive web design</h2>
-    <h3>HTML5 | CSS3 | JavaScript | jQuery | PHP</h3>
    <ul>
-	<!-- <li><a href="http://www.alexpow.com/web-portfolio/final/">Final project</a></li> -->
-	<!-- <li><a href="http://www.alexpow.com/web-portfolio/13mobileapp/">jQuery mobile</a></li> -->
     <li><a href="http://www.alexpow.com/web-portfolio/12framework/">CSS Frameworks</a></li> 
     <li><a href="http://dgm2740.alexpow.com/11php/index.php">PHP include & CSS menu activation</a></li>
     <li><a href="http://www.alexpow.com/web-portfolio/10preprocessor/">CSS Preprocessor: SASS</a></li>
@@ -17,9 +13,7 @@
     <li><a href="http://www.alexpow.com/web-portfolio/05bHomeCenter/">Responsive Navigation: Drop down menu on mobile</a></li>
     <li><a href="http://www.alexpow.com/web-portfolio/05aNavigation/">Responsive Navigation: Show/hide jQuery button for mobile</a></li>
     <li><a href="http://www.alexpow.com/web-portfolio/03responsiveDesign/">Responsive Design</a></li>
-    
+    <li><a href="http://www.alexpow.com/web-portfolio/JSClass/FinalProject/JSFinalHTML.html">JavaScript project</a></li>
+    <li><a href="https://gist.github.com/alexpow" target="_blank">Learning JavaScript</a></li>
+    <li><a href="http://www.alexpow.com/web-portfolio/basic/">Basic HTML and CSS (first website)</a></li>
     </ul>
-	
-	    <h2><a href="JSClass/FinalProject/JSFinalHTML.html">JavaScript project</a></h2>
-    <h2><a href="https://gist.github.com/alexpow" target="_blank">JavaScript class assignments</a></h2>
-    <h2><a href="bunnies/index.html">First website: Buffy & Abbie</a></h2>

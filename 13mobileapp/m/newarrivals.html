@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery Mobile Web App</title>
+<link href="mobileSupport/jquery.mobile-1.3.0.css" rel="stylesheet"/>
+<script src="mobileSupport/jquery.js"></script>
+<script src="mobileSupport/jquery.mobile-1.3.0.js" ></script>
+</head> 
+<body> 
+
+
+
+<div data-role="page" id="newarrivals">
+	<div data-role="header" data-position="fixed">
+	<a href="index.html" data-icon="home">Home</a>
+		<h1>New Arrivals</h1>
+	<a href="#menu" data-icon="bars" data-rel="popup" data-inline="true">Menu</a>
+    </div>
+	<div data-role="content">
+    	
+		<div class="ui-grid-a">
+    <div class="ui-block-a"><img src="mobileSupport/images/jr.jpg" alt="Ghost Walk by Baby Ghosts" style="width: 90%;"></div>
+    <div class="ui-block-b"><img src="mobileSupport/images/ls.jpg" alt="Ghost Walk by Baby Ghosts" style="width: 90%;"></div>
+    <div class="ui-block-a"><img src="mobileSupport/images/ll.jpg" alt="Ghost Walk by Baby Ghosts" style="width: 90%;"></div>
+    <div class="ui-block-b"><img src="mobileSupport/images/dt.jpg" alt="Ghost Walk by Baby Ghosts" style="width: 90%;"></div>
+    <div class="ui-block-a"><img src="mobileSupport/images/taco.jpg" alt="Ghost Walk by Baby Ghosts" style="width: 90%;"></div>
+    <div class="ui-block-b"><img src="mobileSupport/images/cg.jpg" alt="Ghost Walk by Baby Ghosts" style="width: 90%;"></div>
+</div><!-- /grid-a -->
+	
+	</div>
+	<div data-role="footer">
+		<h4>Blank Records</h4>
+	</div>
+</div>
+
+<div data-role="popup" id="menu" data-theme="d">
+        <ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="d">
+            <li data-role="divider" data-theme="a">Go to:</li>
+            <li><a href="index.html" data-transition="slideup">Home</a></li>
+            <li><a href="shows.html" >Upcoming shows</a></li>
+			<li><a href="newarrivals.html" data-transition="flip">New Arrivals</a></li>
+            <li><a href="releases.html" >Releases</a></li>
+            <li><a href="blog.html" >Blog</a></li>
+        </ul>
+</div>	
+
+</body>
+</html>

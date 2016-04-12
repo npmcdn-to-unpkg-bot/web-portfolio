@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery Mobile Web App</title>
+<link href="mobileSupport/jquery.mobile-1.3.0.css" rel="stylesheet"/>
+<script src="mobileSupport/jquery.js"></script>
+<script src="mobileSupport/jquery.mobile-1.3.0.js" ></script>
+</head> 
+<body> 
+
+
+
+<div data-role="page" id="newarrivals">
+	<div data-role="header" data-position="fixed">
+	<a href="index.html#home" data-icon="home">Home</a>
+		<h1>New Arrivals</h1>
+	<a href="#menu" data-icon="bars" data-rel="popup" data-inline="true">Menu</a>
+    </div>
+	<div data-role="content">
+    	
+		<div class="ui-grid-a">
+    <div class="ui-block-a">image</div>
+    <div class="ui-block-b">Block B</div>
+    <div class="ui-block-a">Block A</div>
+    <div class="ui-block-b">Block B</div>
+    <div class="ui-block-a">Block A</div>
+    <div class="ui-block-b">Block B</div>
+</div><!-- /grid-a -->
+	
+	</div>
+	<div data-role="footer">
+		<h4>Blank Records</h4>
+	</div>
+</div>
+
+<div data-role="page" id="releases">
+	<div data-role="header" data-position="fixed">
+    <a href="index.html#home" data-icon="home">Home</a>
+		<h1>Releases</h1>
+	<a href="#menu" data-icon="bars" data-rel="popup" data-inline="true">Menu</a>
+    </div>
+	<div data-role="content">	
+		<div data-role="collapsible" data-inset="false" data-theme="c" data-content-theme="d">
+    <h4>Heading</h4>
+    <p>I'm the collapsible content. By default I'm closed, but you can click the header to open me.</p>
+</div>
+<div data-role="collapsible" data-inset="false" data-theme="c" data-content-theme="d">
+    <h4>Heading</h4>
+    <p>I'm the collapsible content. By default I'm closed, but you can click the header to open me.</p>
+</div>
+<div data-role="collapsible" data-inset="false" data-theme="c" data-content-theme="d">
+    <h4>Heading</h4>
+    <p>I'm the collapsible content. By default I'm closed, but you can click the header to open me.</p>
+</div>
+	</div>
+	<div data-role="footer">
+		<h4>Blank Records</h4>
+	</div>
+</div>
+
+<div data-role="page" id="listen">
+	<div data-role="header" data-position="fixed">
+    <a href="index.html#home" data-icon="home">Home</a>
+		<h1>Listen</h1>
+	<a href="#menu" data-icon="bars" data-rel="popup" data-inline="true">Menu</a>
+    </div>
+	<div data-role="content">	
+
+	</div>
+	<div data-role="footer">
+		<h4>Blank Records</h4>
+	</div>
+</div>
+
+<div data-role="popup" id="menu" data-theme="d">
+        <ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="d">
+            <li data-role="divider" data-theme="e">Go to:</li>
+            <li><a href="index.html#about" data-transition="slideup">About</a></li>
+            <li><a href="index.html#contact" data-transition="pop">Contact</a></li>
+            <li><a href="shows.html#upcoming" >Upcoming shows</a></li>
+            <li><a href="shows.html#past" >Past Shows</a></li>
+			<li><a href="music.html#newarrivals" data-transition="flip">New Arrivals</a></li>
+            <li><a href="music.html#releases" >Releases</a></li>
+            <li><a href="index.html#press" >Press</a></li>
+            <li><a href="blog.html" >Blog</a></li>
+        </ul>
+</div>	
+
+</body>
+</html>

@@ -16,13 +16,14 @@
 	</div>
 	<div data-role="content">	
 		<ul data-role="listview">
-			<li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-			<li><a href="#newarrivals">New Arrivals</a></li>
-		</ul>		
+			<li><a href="#about" data-transition="slideup">About</a></li>
+            <li><a href="#contact" data-transition="pop">Contact</a></li>
+			<li><a href="#newarrivals" data-transition="flip">New Arrivals</a></li>
+		</ul>
+        		
 	</div>
-	<div data-role="footer">
-		<h4>Page Footer</h4>
+	<div data-role="footer" data-position="fixed">
+		<h4>Blank Records</h4>
 	</div>
 </div>
 
@@ -30,9 +31,19 @@
 	<div data-role="header" data-position="fixed">
 	<a href="#home" data-icon="home">Home</a>
 		<h1>About</h1>
-	</div>
-	<div data-role="content">	
-		Content		
+	<a href="#home" data-icon="bars">Menu</a>
+    </div>
+	<div data-role="content">
+    	
+		<div class="ui-grid-a">
+    <div class="ui-block-a">image</div>
+    <div class="ui-block-b">Block B</div>
+    <div class="ui-block-a">Block A</div>
+    <div class="ui-block-b">Block B</div>
+    <div class="ui-block-a">Block A</div>
+    <div class="ui-block-b">Block B</div>
+</div><!-- /grid-a -->
+	
 	</div>
 	<div data-role="footer">
 		<h4>Blank Records</h4>
@@ -41,14 +52,15 @@
 
 <div data-role="page" id="contact">
 	<div data-role="header" data-position="fixed">
-	<a href="#home" data-icon="bars">Menu</a>
-		<h1>Contact</h1>
+    <a href="#home" data-icon="home">Home</a>
+			<h1>Contact</h1>
+     <a href="#home" data-icon="bars">Menu</a>
 	</div>
 	<div data-role="content">	
 <form action="" method="">
-<label for="text-basic">Name:</label>
-<input type="text" name="name" id="name" value="">
-<label for="text-basic">Subject:</label>
+<label for="name">Name:</label>
+<input type="text" name="name" id="name" value="" placeholder="First Last">
+<label for="subject">Subject:</label>
 <input type="text" name="subject" id="subject" value="">
     <label for="email-1">Email Address:</label>
     <input type="email" data-clear-btn="false" name="email-1" id="email-1" value="">
@@ -79,15 +91,16 @@
 
 	</div>
 	<div data-role="footer">
-		<h4>Page Footer</h4>
+		<h4>Blank Records</h4>
 	</div>
 </div>
 
 <div data-role="page" id="newarrivals">
 	<div data-role="header" data-position="fixed">
-    <a href="#home" data-role="button" data-theme="c">Home</a>
+    <a href="#home" data-icon="home">Home</a>
 		<h1>New Arrivals</h1>
-	</div>
+	<a href="#home" data-icon="bars">Menu</a>
+    </div>
 	<div data-role="content">	
 		<div data-role="collapsible" data-inset="false" data-theme="c" data-content-theme="d">
     <h4>Heading</h4>

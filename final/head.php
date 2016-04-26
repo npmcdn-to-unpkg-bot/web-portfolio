@@ -25,6 +25,6 @@ Designed and developed by Alex Powelson http://www.alexpow.com
 <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,800,700,400italic,700italic|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic|Lobster|Lobster+Two:400,400italic,700,700italic" rel="stylesheet" type="text/css">
 
 <!-- CSS -->
-<link href="css/bnb.css" rel="stylesheet" >
+<link href="css/bnb.css" rel="stylesheet">
 
 </head>

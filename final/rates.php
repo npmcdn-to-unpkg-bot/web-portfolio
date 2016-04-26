@@ -5,35 +5,82 @@
 <div class="container-fluid">
 <div class="row">
 
-<h1>Rates</h1>
-<article>Keepers Rooms Summer $194.00 + taxes Winter $179.00 + taxes
-Keepers rooms are $217.28 May 1 - October 31, & $200.48 November 1 - April 30, all taxes included.
+<h1>Rooms/Rates</h1>
 
-Keeper Dufrain is a large room with a view of Lake Superior, a queen size bed, and a gas fire place. The vaulted ceiling gives the room a spacious feel. The bathroom has a shower. 
+<div class="card-group">
+  
+<div class="card col-sm-6">
+  <img class="card-img-top" data-src="images/room.jpg" src="images/room.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Summer Rates</h4>
+    <h6 class="card-subtitle text-muted">May 1 - October 31</h6>
+    <ul class="list-group list-group-flush">
+	<li class="list-group-item">Keeper: $220</li>
+    <li class="list-group-item">Assistant: $180</li>
+    <li class="list-group-item">Helper: $150</li>
+    </ul>
+  </div>
+</div><!-- end card -->
 
-Keeper Mcdonald is a large room on the first floor, with windows on three sides, including a view of Lake Superior, a queen size bed and a gas fire place. The bathroom has a shower. 
+<div class="card col-sm-6">
+  <img class="card-img-bottom" data-src="images/room.jpg" src="images/room.jpg" alt="Card image cap">
+  <div class="card-block">
+    <h4 class="card-title">Winter Rates</h4>
+    <h6 class="card-subtitle text-muted">November 1 - April 30</h6>
+    <ul class="list-group list-group-flush">
+    <li class="list-group-item">Keeper: $200</li>
+    <li class="list-group-item">Assistant: $160</li>
+    <li class="list-group-item">Helper: $130</li>
+    </ul>
+  </div>
+</div><!-- end card -->
+</div><!-- end card group -->
 
-Keeper Bergan is on the first floor. It has a view of Lake Superior, a queen size bed and a gas Franklin stove. The bathroom has a one person Thermo-massage tub and shower. 
+<div class="card-columns">
 
-Assistants Rooms Summer $159.00 + taxes Winter $144.00 + taxes
 
-Assistants rooms are $178.48 May 1 - October 31, & $161.28 November 1 - April 30 all taxes included.
+<div class="card col-sm-6 col-md-4">
+  <div class="card-block">
+    <h4 class="card-title">Keepers Rooms</h4>
+  </div>
+  <ul class="list-group list-group-flush">
 
-Assistant Beamer has a view of Lake Superior and a queen size bed. The bathroom has a shower. 
+<li class="list-group-item">Keeper Dufrain is a large room with a view of Lake Superior, a queen size bed, and a gas fire place. The vaulted ceiling gives the room a spacious feel. The bathroom has a shower. </li>
 
-Assistant Temple has a view of Lake Superior and a queen size bed and a day bed. The bathroom has a shower and a tub. It is two steps across the hall, and we supply bathrobes. 
+<li class="list-group-item">Keeper Mcdonald is a large room on the first floor, with windows on three sides, including a view of Lake Superior, a queen size bed and a gas fire place. The bathroom has a shower. </li>
 
-Helper Fleury Summer $139.00 + taxes Winter $129.00 + taxes
+<li class="list-group-item">Keeper Bergan is on the first floor. It has a view of Lake Superior, a queen size bed and a gas Franklin stove. The bathroom has a one person Thermo-massage tub and shower. </li>
+</ul>
+  
+</div><!-- end card -->
 
-Helper Fleury is $155.68 May 1 - October 31, & $144.48 November 1 - April 30 all taxes included.
+</div><!-- end card -->
 
-Helper Fleury has a view of the woods and a queen size bed. The bathroom has a tub and shower. 
+<div class="card col-sm-6 col-md-4">
+<div class="card-block">
+    <h4 class="card-title">Assistants Rooms</h4>
+  </div>
+  <ul class="list-group list-group-flush">
+<li class="list-group-item">Assistant Beamer has a view of Lake Superior and a queen size bed. The bathroom has a shower. </li>
 
-Helper Brown Summer $129.00 + taxes Winter $114.00 + taxes
+<li class="list-group-item">Assistant Temple has a view of Lake Superior and a queen size bed and a day bed. The bathroom has a shower and a tub. It is two steps across the hall, and we supply bathrobes. </li>
+  </ul>
+</div><!-- end card -->
 
-Helper Brown is $144.48 May 1 - October 31,all taxes included, $127.68 November 1 - November 14 & Used for Spa November 15 - April 30.
+<div class="card col-sm-6 col-md-4">
+<div class="card-block">
+    <h4 class="card-title">Helpers Rooms</h4>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Helper Fleury has a view of the woods and a queen size bed. The bathroom has a tub and shower. </li>
+	<li class="list-group-item">Helper Brown is a smaller room with a view of the woods and a full size bed. The bathroom has a shower. Used for Spa November 15 - April 30.</li>
+  </ul>
+</div><!-- end card -->
 
-Helper Brown is a smaller room with a view of the woods and a full size bed. The bathroom has a shower. </article>
+
+
+</div><!-- end card col -->
+
 
 </div> <!-- end row -->
 

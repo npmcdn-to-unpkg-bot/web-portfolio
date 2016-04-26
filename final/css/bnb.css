@@ -71,9 +71,10 @@ nav .glyphicon {
 /* line 72, ../sass/_default.scss */
 form {
   margin: 0 auto;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
-/* line 76, ../sass/_default.scss */
+/* line 77, ../sass/_default.scss */
 legend {
   font-family: "Lobster Two", cursive;
   text-align: center;
@@ -81,7 +82,7 @@ legend {
   margin: 0 auto 1em;
 }
 
-/* line 82, ../sass/_default.scss */
+/* line 83, ../sass/_default.scss */
 label {
   margin: 1em auto;
   text-align: center;
@@ -89,18 +90,18 @@ label {
   width: 100%;
 }
 
-/* line 89, ../sass/_default.scss */
-.input-group-addon {
-  width: 10%;
+/* line 90, ../sass/_default.scss */
+.input-group .form-control .datecheck {
+  width: 40%;
+  float: left;
 }
 
-/* line 93, ../sass/_default.scss */
-.select-date, .select-guests, .select-room, button {
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: 1em;
+/* line 95, ../sass/_default.scss */
+.input-group-addon .datecheck {
+  float: left;
 }
 
-/* line 98, ../sass/_default.scss */
+/* line 99, ../sass/_default.scss */
 button.btn {
   display: block;
   width: 50%;
@@ -110,13 +111,13 @@ button.btn {
 }
 
 /* content */
-/* line 108, ../sass/_default.scss */
+/* line 109, ../sass/_default.scss */
 .row, .form-inline .form-group {
   display: block;
   margin: 1em auto;
 }
 
-/* line 113, ../sass/_default.scss */
+/* line 114, ../sass/_default.scss */
 h1 {
   font-family: "Lobster Two", cursive;
   font-size: 3em;
@@ -125,7 +126,7 @@ h1 {
   color: #BBBBB7;
 }
 
-/* line 122, ../sass/_default.scss */
+/* line 123, ../sass/_default.scss */
 h2 {
   font-family: "Lobster Two", cursive;
   font-size: 2em;
@@ -134,7 +135,7 @@ h2 {
   color: #BBBBB7;
 }
 
-/* line 130, ../sass/_default.scss */
+/* line 131, ../sass/_default.scss */
 h3 {
   font-family: "Merriweather", serif;
   margin: .25em;
@@ -142,7 +143,7 @@ h3 {
   color: #A32B33;
 }
 
-/* line 137, ../sass/_default.scss */
+/* line 138, ../sass/_default.scss */
 h4 {
   font-family: "Merriweather", serif;
   margin: .25em;
@@ -153,23 +154,23 @@ h4 {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-/* line 147, ../sass/_default.scss */
+/* line 148, ../sass/_default.scss */
 img, figure {
   width: 100%;
 }
 
-/* line 151, ../sass/_default.scss */
+/* line 152, ../sass/_default.scss */
 .card {
   margin: 1em auto;
 }
 
-/* line 155, ../sass/_default.scss */
+/* line 156, ../sass/_default.scss */
 p {
   background-color: #fff;
 }
 
 /* footer */
-/* line 161, ../sass/_default.scss */
+/* line 162, ../sass/_default.scss */
 footer {
   clear: both;
   text-align: center;
@@ -177,17 +178,9 @@ footer {
   color: #BBBBB7;
 }
 
-/* line 168, ../sass/_default.scss */
+/* line 169, ../sass/_default.scss */
 footer a {
   color: #8AA426;
-}
-
-/* clear fix */
-/* line 173, ../sass/_default.scss */
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /* tablet > 768px */
@@ -213,6 +206,11 @@ footer a {
 
   /* form */
   /* line 18, ../sass/_tab.scss */
+  .form-inline .input-group > .form-control .datecheck {
+    width: 100%;
+  }
+
+  /* line 22, ../sass/_tab.scss */
   .c-select {
     width: 90%;
     float: right;

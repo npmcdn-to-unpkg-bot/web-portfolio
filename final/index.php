@@ -9,9 +9,9 @@
     <legend>Availability</legend>
 
     <label class="input-group col-xs-12 col-sm-10 col-sm-offset-1 col-md-5">
-    <span class="input-group-addon">Date:</span>
+    <span class="input-group-addon datecheck">Date:</span>
 	<input class="form-control datecheck" type="date" name="indate" value="" >
-	<span class="input-group-addon"><span class="glyphicon glyphicon-arrow-right"  aria-hidden="true"></span></span>
+	<span class="input-group-addon datecheck"><span class="glyphicon glyphicon-arrow-right"  aria-hidden="true"></span></span>
 	<input class="form-control datecheck" type="date" name="outdate" value="" >
 	</label>
 

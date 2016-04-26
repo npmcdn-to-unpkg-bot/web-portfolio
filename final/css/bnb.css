@@ -148,15 +148,14 @@ label {
   width: 100%;
 }
 
-/* line 89, ../sass/_default.scss */
+/* not sure yet if need this */
+/*
 .input-group .form-control {
-  min-width: 100px;
+	min-width:100px;	
 }
-
-/* line 93, ../sass/_default.scss */
+*/
+/* line 95, ../sass/_default.scss */
 .select-date, .select-guests, .select-room, button {
-  display: block;
-  width: 100%;
   font-family: "Merriweather Sans", sans-serif;
   font-size: 1em;
 }
@@ -222,27 +221,12 @@ img, figure {
 }
 
 /* line 157, ../sass/_default.scss */
-.rooms {
-  background-image: url(../images/room.jpg);
-}
-
-/* line 161, ../sass/_default.scss */
-.specials {
-  background-image: url(../images/specials.jpg);
-}
-
-/* line 165, ../sass/_default.scss */
-.nophone {
-  display: none;
-}
-
-/* line 169, ../sass/_default.scss */
 p {
   background-color: #fff;
 }
 
 /* footer */
-/* line 175, ../sass/_default.scss */
+/* line 163, ../sass/_default.scss */
 footer {
   clear: both;
   text-align: center;
@@ -250,13 +234,13 @@ footer {
   color: #BBBBB7;
 }
 
-/* line 182, ../sass/_default.scss */
+/* line 170, ../sass/_default.scss */
 footer a {
   color: #8AA426;
 }
 
 /* clear fix */
-/* line 187, ../sass/_default.scss */
+/* line 175, ../sass/_default.scss */
 .clearfix:after {
   content: "";
   display: table;
@@ -285,30 +269,11 @@ footer a {
   }
 
   /* form */
-  /* line 18, ../sass/_tab.scss */
-  .select-date, .select-guests, .select-room, button {
-    font-size: 1.25em;
-  }
-
-  /* line 23, ../sass/_tab.scss */
-  .select-guests, .select-room {
-    display: inline;
-  }
-
   /* content */
-  /* line 28, ../sass/_tab.scss */
-  .nophone {
-    display: block;
-  }
 }
 /* desktop > 992px */
 @media only screen and (min-width: 992px) {
   /* desktop css */
-  /* line 2, ../sass/_desk.scss */
-  .container-fluid {
-    max-width: 1100px;
-  }
-
   /* header */
   /* line 8, ../sass/_desk.scss */
   header {
@@ -330,10 +295,9 @@ footer a {
   }
 
   /* form */
-  /* line 25, ../sass/_desk.scss */
-  .select-date, .select-guests, .select-room, button {
+  /* line 26, ../sass/_desk.scss */
+  button .btn .btn-default {
     display: inline;
-    font-size: 1.5em;
   }
 
   /* content */

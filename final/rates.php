@@ -23,7 +23,7 @@
 </div><!-- end card -->
 
 <div class="card col-sm-6">
-  <img class="card-img-bottom" data-src="images/room.jpg" src="images/room.jpg" alt="Card image cap">
+  <img class="card-img-bottom" data-src="images/room2.jpg" src="images/room2.jpg" alt="Card image cap">
   <div class="card-block">
     <h4 class="card-title">Winter Rates</h4>
     <h6 class="card-subtitle text-muted">November 1 - April 30</h6>

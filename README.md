@@ -1,6 +1,7 @@
 #Web Development
    <ul>
-   	<li><a href="http://dgm2740.alexpow.com/13mobileapp/">jQuery mobile site</a></li> 
+    <li><a href="http://dgm2740.alexpow.com/final/">Final project</a></li>
+    <li><a href="http://dgm2740.alexpow.com/13mobileapp/">jQuery mobile site</a></li> 
     <li><a href="http://www.alexpow.com/web-portfolio/12framework/">CSS Frameworks</a></li> 
     <li><a href="http://dgm2740.alexpow.com/11php/index.php">PHP include & CSS menu activation</a></li>
     <li><a href="http://www.alexpow.com/web-portfolio/10preprocessor/">CSS Preprocessor: Sass</a></li>

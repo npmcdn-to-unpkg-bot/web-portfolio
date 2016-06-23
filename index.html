@@ -1,52 +1,75 @@
 <!doctype html>
 <html>
 <!--
-     @     ||        |+++++++ X    X  ###   00   \\                // 
-   @   @   ||        |         X  X   #  # 0  0   \\              //
-  @@@@@@@  ||        |====      XX    ###  0  0    \\    //\\    //
- @       @ ||        |         X  X   #    0  0     \\  //  \\  //
-@         @||======  |_______ X    X  #     00       \\//    \\//
+  //\\   ||    ||+++ X X ||=.  00  \\      //
+ //##\\  ||    ||==   X  ||=' 0  0  \\    //
+//    \\ ||___ ||___ X X ||    00    \\/\//
+
+Alex Powelson
+
 -->
 <head>
 <meta charset="utf-8">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script src="jquery.lazyload.js" type="text/javascript"></script>
-<script type="text/javascript">
-$(function() {
-    $("img.lazy").lazyload(
-	{threshold: 400, effect: "fadeIn"}
-	);
-});
+<meta name="viewport" content="width=device-width, inital-scale=1, maximum-scale=1">
+<meta name="google-site-verification" content="qhmsJ3r77K3C6Qn3LBw5c_O40XdRO2TVADDg-sdkCdo" />
+<title>Alex Powelson - Web development and design</title>
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<!-- tether for tooltips -->
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/tether/1.3.1/js/tether.min.js"></script>
+
+<!-- bootstrap -->
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> 
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<!-- activate tooltips -->
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+    
 </script>
 
 <!-- font awesome -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-
+<script src="https://use.fonticons.com/087bd457.js"></script>
 
 <!-- Google fonts -->
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic|Source+Code+Pro:400,900,700,600,500,300,200" rel="stylesheet" type="text/css">
-<!-- CSS -->
 
+<!-- CSS -->
 <link href="http://www.alexpow.com/alexpow.css" rel="stylesheet" >
-<meta name="viewport" content="width=device-width, inital-scale=1, maximum-scale=1">
-<title>Alex Powelson - Web Development portfolio</title>
+
+
+
 </head>
 <body>
    <div id="container">
 
-<header><h1><a href="http://www.alexpow.com" target="_blank">ALEX POWELSON</a></h1></header>
-	
+<header>
+<h1><a href="index.html">ALEX POWELSON</a></h1>
+<h2><a href="http://lesser.co" target="_blank" data-toggle="tooltip" data-placement="bottom" title="lesser"><em>&lt;</em></a> web developer and designer in SLC, UT </h2>
+</header>
     <div id="content">
-
-    <h1>Web Development</h1>
+  <nav>
+  	<ul class="nav nav-tabs nav-justified">
+      <li role="presentation" class="active"><a href="#webWork" aria-controls="webWork" role="tab" data-toggle="tab">Development</a></li>
+  <li role="presentation"><a href="#designWork" aria-controls="designWork" role="tab" data-toggle="tab">Design</a></li>
+  <li role="presentation"><a href="#projects" aria-controls="projects" role="tab" data-toggle="tab">Projects</a></li>
+  	</ul>
+  </nav>
+    	<div class="tab-content">
+                
+    	<div role="tabpanel" class="tab-pane active" id="webWork">
     <h2>Responsive web design</h2>
     <h3>HTML | CSS | Sass | JavaScript | jQuery | PHP</h3>
-       <ul>
-    <li><i class="fa fa-code"></i> <a href="http://dgm2740.alexpow.com/final/">Final project</a></li>
+    <ul>
+    <li><i class="fa fa-code"></i> <a href="http://dgm2740.alexpow.com/final/">Responsive Template</a></li> 
     <li><i class="fa fa-code"></i> <a href="http://dgm2740.alexpow.com/13mobileapp/">jQuery mobile site</a></li> 
     <li><i class="fa fa-code"></i> <a href="http://www.alexpow.com/web-portfolio/12framework/">CSS Frameworks</a></li> 
-    <li><i class="fa fa-code"></i> <a href="http://dgm2740.alexpow.com/11php/index.php">PHP include & CSS menu activation</a></li>
+    <li><i class="fa fa-code"></i> <a href="http://dgm2740.alexpow.com/11php/index.php" data-toggle="tooltip" data-placement="right" title="lesser template">PHP include & CSS menu activation</a></li>
     <li><i class="fa fa-code"></i> <a href="http://www.alexpow.com/web-portfolio/10preprocessor/">CSS Preprocessor: Sass</a></li>
     <li><i class="fa fa-code"></i> <a href="http://www.alexpow.com/web-portfolio/09loading/">Lazy Loading Images</a></li>
     <li><i class="fa fa-code"></i> <a href="http://www.alexpow.com/web-portfolio/08social/index.html">Responsive Images and Twitter</a></li>
@@ -64,23 +87,94 @@ $(function() {
     
     </ul>
 
+  </div>
+    
+    	<div role="tabpanel" class="tab-pane" id="designWork">
+              
+    <h1>Design for <em>lesser</em></h1>
+    <h2><a href="design/designguide.pdf" type="pdf" download><i class="fa fa-file-pdf-o"></i> Design guide</a></h2>
+    <h3>InDesign | Illustrator | Photoshop<br> 
+    Includes concept model, personas, site map, wireframes, and surface comps</h3>
+    <h2><a href="http://dgm2740.alexpow.com/11php/index.php" title="lesser template"><i class="fa fa-code"></i> Template</a></h2>
+    <h3>PHP | HTML | CSS | JavaScript</h3>
+         
+  <h1>Wireframes</h1>
+  	<h2><a href="design/finalwireframes.pdf" type="pdf" download>Wireframes for responsive template</a></h2>
+    <h3>InDesign <br>
+    Wireframes for mobile, tablet, and desktop</h3>
+    <h2><a href="design/wireframes.pdf" type="pdf" download>Wireframes for jQuery mobile site</a></h2>
+    <h3>InDesign <br>
+    Wireframes for 10 pages </h3>
+    
+
+    </div>
+    	<div role="tabpanel" class="tab-pane" id="projects">
+        <h1>Code</h1>
+    <h2><a href="https://twitter.com/alexpow_ebooks" target="_blank">alexpow_ebooks twitter bot</a> </h2> <h3>Ruby on Rails and <a href="https://github.com/mispy/twitter_ebooks" target="_blank">twitter_ebooks</a></h3>
+    <a class="twitter-timeline" href="https://twitter.com/alexpow_ebooks" data-widget-id="704444318207991808" data-chrome="nofooter noheader">Tweets by @alexpow_ebooks</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <h2><a href="https://alexpow.itch.io/make-me-cry" target="_blank">Game: Make Me Cry</a></h2>
+    <h3>HTML | CSS | JavaScript</h3>
+
+    <h1>Images</h1>
+    <h2><a href="https://alexpow.tumblr.com/tagged/my-gifs" target="_blank">gifs</a></h2>
+    <h3>Photoshop | Hexels</h3>
+	<h2><a href="https://alexpow.tumblr.com/tagged/mine" target="_blank">Photos</a></h2>
+    <h3>Photoshop | Lightroom</h3>
+    <h1>Provo music reviews & photos</h1>
+    <ul>
+    	<li><a href="https://provomusicguide.wordpress.com/author/alexxpow/" target="_blank">Provo Music Guide (2011)</a></li>
+    	<li><a href="http://musemusiccafe.com/blog/" target="_blank">Muse Music Blog (2011)</a></li>
+    
+    </ul>
+  </div>
+  		</div>
+        
+
     </div> <!-- end content -->
 
-  
+ 
   <footer>
   <div class="social">
-      	<a href="http://github.com/alexpow" target="_blank"><i class="fa fa-github"></i></a>
+  		<a href="http://github.com/alexpow" target="_blank"><i class="fa fa-github"></i></a>
         <a href="http://twitter.com/alexpow" target="_blank"><i class="fa fa-twitter"></i></a>
         <a href="http://instagram.com/alexpow" target="_blank"><i class="fa fa-instagram"></i></a>
         <a href="http://alexpow.tumblr.com" target="_blank"><i class="fa fa-tumblr"></i></a>
       </div>  
         <div class="email">
-<a href="mailto:alex@alexpow.com" target="_top" class="email"><i class="fa fa-envelope"></i> alex@alexpow.com</a></div>
+<a href="mailto:alexpow8@gmail.com" target="_top" class="email"><i class="fa fa-envelope"></i> alexpow8@gmail.com</a></div>
   </footer>
 
 
 </div>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-20368423-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- statcounter -->
+<script type="text/javascript">
+var sc_project=10833541; 
+var sc_invisible=1; 
+var sc_security="a488e226"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/10833541/0/a488e226/1/"
+alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
 </body>
 </html>

@@ -234,3 +234,12 @@ TMPnrzdk8.php
 TMP1w33s1m.php
 11php/ask.tml.html
 _notes/dwsync.xml
+wordpress/wp-admin/admin-ajax.php
+wordpress/wp-includes/SimplePie/Item.php
+*.php
+*.js
+*.gif
+*.png
+*.swf
+*.gz
+wordpress/license.txt

@@ -5,7 +5,7 @@
 <!-- jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <!-- masonry --> 
-<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
+<script src="https://unpkg.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
 <!-- not sure tumblr -->
 <script src="http://static.tumblr.com/t1owtkf/3Bqnx7iw5/main-min.js"></script>
 
